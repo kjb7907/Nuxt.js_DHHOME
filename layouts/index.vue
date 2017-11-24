@@ -32,8 +32,8 @@
 
         <div class="container">
           <div class="content">
-            <h1>I create webistes</h1>
-            <h3>Would you like to receive expert consulting you?</h3>
+            <h1 style="color:white; font-size:50pt;">CREATIVE WORK</h1>
+            <h2 style="color:white;">Would you like to receive expert consulting you?</h2>
             <br>
             <a href="/project" class="btn btn-primary my-btn">Portfolio</a>
             <a href="/contact" class="btn btn-primary my-btn2">Contact</a>
@@ -45,15 +45,20 @@
     <div id="tf-service">
       <div class="container">
 
+        <div class="section-title">
+          <h3 style="text-align: center; font-size:30pt;font-weight: 300;">Solutions</h3>
+          <hr>
+        </div>
+
         <div class="row">
           <div class="col-md-4">
-
+            <h4 class="media-heading" style="text-align:center;font-size:20pt;font-weight:300;">OEE</h4>
+            <div class="row"><img src="/dhhome/img/oee.png" style="width:350px; height: 200px;"></div>
             <div class="media">
               <div class="media-left media-middle">
                 <i class="fa fa-bar-chart"></i>
               </div>
               <div class="media-body">
-                <h4 class="media-heading">OEE</h4>
                 <p>설비종합효율 향상 목표를 설정하고 이를 달성하기 위해 관리체제를 일정한 절차 및 기법에 따라 체계적이고 지속적으로 추진하는 전사적 공장 종합효율 관리 시스템</p>
               </div>
             </div>
@@ -61,13 +66,13 @@
           </div>
 
           <div class="col-md-4">
-
+            <h4 class="media-heading" style="text-align:center;font-size:20pt;font-weight:300;">PMS</h4>
+            <div class="row"><img src="/dhhome/img/pms.png" style="width:350px;height: 200px;"></div>
             <div class="media">
               <div class="media-left media-middle">
                 <i class="fa fa-gears"></i>
               </div>
               <div class="media-body">
-                <h4 class="media-heading">PMS</h4>
                 <p>통상적으로 경영 의사 결정과 생산 정보에 관한 계획, 창출, 제어가 직결되는 공장의 종합 정보 시스템</p>
               </div>
             </div>
@@ -75,13 +80,13 @@
           </div>
 
           <div class="col-md-4">
-
+            <h4 class="media-heading" style="text-align:center;font-size:20pt;font-weight:300;">TMS</h4>
+            <div class="row"><img src="/dhhome/img/tms.png" style="width:350px;height: 200px;"></div>
             <div class="media">
               <div class="media-left media-middle">
                 <i class="fa fa-truck"></i>
               </div>
               <div class="media-body">
-                <h4 class="media-heading">TMS</h4>
                 <p>컴퓨터 온라인을 통하여 학생들의 성적과 진도는 물론 출석과 결석 등 학사전반에 걸친 사항들을 관리해 주는 시스템</p>
               </div>
             </div>
@@ -95,7 +100,7 @@
     <div id="tf-portfolio">
       <div class="container">
         <div class="section-title">
-          <h3>Our Works</h3>
+          <h3 style="text-align: center; font-size:30pt;font-weight: 300;">Our Works</h3>
           <hr>
         </div>
 
@@ -161,5 +166,9 @@
   @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
    .row {
     font-family: 'Noto Sans KR', serif;
+  }
+
+  p {
+    font-size:12pt;
   }
 </style>
