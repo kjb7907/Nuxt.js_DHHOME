@@ -13,7 +13,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="" href="index.html" style="font-size:24pt;">DAEHANINS</a>
+              <a class="" href="/" style="font-size:24pt;">DAEHANINS</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,9 +34,29 @@
 
     <nuxt/>
 
+    <nav id="tf-footer">
+      <div class="container">
+        <div class="pull-left">
+          <p>2015 © Awesomess. All Rights Reserved. Designed and Coded by <a href="https://dribbble.com/jennpereira">Jenn</a> for <a href="https://themeforces.com">ThemeForces.Com</a></p>
+        </div>
+        <div class="pull-right">
+          <ul class="social-media list-inline">
+            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+            <li><a href="#"><span class="fa fa-behance"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
 </template>
 
 <style>
-
+  @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+  .row {
+    font-family: 'Noto Sans KR', serif;
+  }
 </style>
