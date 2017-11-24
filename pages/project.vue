@@ -2,7 +2,7 @@
   <div id="tf-portfolio">
     <div class="container">
       <div class="section-title">
-        <h3>Our Works</h3>
+        <h3 style="text-align: center; font-size:30pt;font-weight: 300;">OUR WORKS</h3>
         <hr>
       </div>
 

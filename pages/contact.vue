@@ -1,9 +1,9 @@
 <template>
   <div>
-    <br><br>
     <div class="container">
       <div class="section-title">
-        <h3>Contact Me</h3>
+        <h3 style="text-align: center; font-size:30pt;font-weight: 300;">CONTACT</h3>
+        <hr>
         <p>구축하실 시스템에 대한 개략적인 내용을 전화 혹은 이메일( jeonsj@daehanins.com )로 보내주시면 성심껏 상담해 드리겠습니다.</p>
       </div>
 
