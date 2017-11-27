@@ -3,14 +3,14 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: '대한아이앤에스',
+    title: 'daehanins',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: '/dhhome/css/bootstrap.css' },
       { rel: 'stylesheet', href: '/dhhome/fonts/font-awesome/css/font-awesome.css' },
       { rel: 'stylesheet', href: '/dhhome/css/style.css' },
