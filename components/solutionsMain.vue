@@ -52,12 +52,21 @@
       </div>
 
     </div>
+
+    <modal-solutions></modal-solutions>
+
   </div>
 </template>
 
 <script>
+  import modal_solutions from '~/components/modal_solutions.vue'
+
   export default {
     components: {
+      'modal-solutions': modal_solutions
+    }
+    ,mounted () {
+      this.$modal.show('hello-world');
     }
   }
 </script>
