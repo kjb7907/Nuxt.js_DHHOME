@@ -45,4 +45,7 @@ module.exports = {
       }
     }
   }
+  ,plugins: [
+    { src: '~plugins/vue-js-modal', ssr: false }
+  ]
 }
