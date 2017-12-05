@@ -19,12 +19,12 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="/">Home</a></li>
-                <li><a href="/aboutUs">About Us</a></li>
-                <li><a href="/solutions">solutions</a></li>
-                <li><a href="/service">Service</a></li>
-                <li><a href="/project">Project</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><nuxt-link to="/">Home</nuxt-link></li>
+                <li><nuxt-link to="/aboutUs">About Us</nuxt-link></li>
+                <li><nuxt-link to="/solutions">solutions</nuxt-link></li>
+                <li><nuxt-link to="/service">Service</nuxt-link></li>
+                <li><nuxt-link to="/project">Project</nuxt-link></li>
+                <li><nuxt-link to="/contact">Contact</nuxt-link></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->

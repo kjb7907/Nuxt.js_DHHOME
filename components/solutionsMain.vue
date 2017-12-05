@@ -66,7 +66,7 @@
       'modal-solutions': modal_solutions
     }
     ,mounted () {
-      this.$modal.show('hello-world');
+
     }
   }
 </script>

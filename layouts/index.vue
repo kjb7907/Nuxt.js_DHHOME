@@ -1,20 +1,20 @@
 <template>
   <div>
 
-    <layout_top></layout_top>
+    <layout-top></layout-top>
 
     <solutions-main></solutions-main>
     <service-main></service-main>
     <project-main></project-main>
 
-    <layout_bottom></layout_bottom>
+    <layout-bottom></layout-bottom>
 
   </div>
 </template>
 
 <script>
 
-  import layout_top from '~/components/layout_top.vue'
+  import layout_top_index from '~/components/layout_top_index.vue'
   import layout_bottom from '~/components/layout_bottom.vue'
 
   import solutionsMain from '~/components/solutionsMain.vue'
@@ -23,8 +23,8 @@
 
   export default {
     components: {
-      'layout_top': layout_top,
-      'layout_bottom': layout_bottom,
+      'layout-top': layout_top_index,
+      'layout-bottom': layout_bottom,
       'solutions-main': solutionsMain,
       'service-main': serviceMain,
       'project-main': projectMain
