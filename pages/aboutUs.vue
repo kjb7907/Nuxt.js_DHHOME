@@ -120,21 +120,4 @@
   p {
    font-size:18px;
   }
-
-  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-    color: #5e5e5e;
-    background-color: white;
-  }
-
-  .historyList {
-    margin:20px;
-    font-size:14pt;
-  }
-
-  .historyDate {
-    font-weight: 200;
-    font-size:20pt;
-    color:gray;
-    margin-right:30px;
-  }
 </style>

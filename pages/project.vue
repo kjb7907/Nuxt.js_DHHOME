@@ -1,13 +1,14 @@
 <template>
   <div id="tf-portfolio">
-
+    <project-main></project-main>
   </div>
 </template>
 
 <script>
-
+  import projectMain from '~/components/projectMain.vue'
   export default {
     components: {
+      'project-main': projectMain
     }
   }
 </script>

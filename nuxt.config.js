@@ -14,7 +14,8 @@ module.exports = {
       { rel: 'stylesheet', href: '/dhhome/css/bootstrap.css' },
       { rel: 'stylesheet', href: '/dhhome/fonts/font-awesome/css/font-awesome.css' },
       { rel: 'stylesheet', href: '/dhhome/css/style.css' },
-      { rel: 'stylesheet', href: '/dhhome/css/responsive.css' }
+      { rel: 'stylesheet', href: '/dhhome/css/responsive.css' },
+      { rel: 'stylesheet', href: '/dhhome/css/default.css' }
     ],
     script: [
       { src: '/dhhome/js/modernizr.custom.js' },
