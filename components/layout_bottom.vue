@@ -1,4 +1,8 @@
 <template>
+  <div>
+
+    <div style="height:400px;"></div>
+    
     <nav id="tf-footer">
       <div class="container">
         <div class="pull-left" style="font-size:10pt; color:white;">
@@ -19,6 +23,7 @@
         </div>
       </div>
     </nav>
+
   </div>
 </template>
 

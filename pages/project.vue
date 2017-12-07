@@ -1,5 +1,5 @@
 <template>
-  <div id="tf-portfolio">
+  <div>
     <project-main></project-main>
   </div>
 </template>

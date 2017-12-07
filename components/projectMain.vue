@@ -6,7 +6,7 @@
         <hr>
       </div>
 
-      <div class="space"></div>
+      <!-- <div class="space"></div> -->
       <div class="row">
         <template v-for="(i,index) in projectList">
           <div class="col-md-4" :key="index">
@@ -18,7 +18,7 @@
 
     </div>
 
-    <modal-project></modal-project>
+    <modal-project :projectIndex="selectProject"></modal-project>
 
   </div>
 </template>
@@ -30,7 +30,8 @@ import project from '~/assets/project.js'
   export default {
     data() {
       return {
-        projectList:[]
+        projectList:[],
+        selectProject: 0
       }
     },
     components: {
@@ -38,12 +39,12 @@ import project from '~/assets/project.js'
     },
     methods:{
       detailOpen(index) {
+        this.selectProject = index;
         this.$modal.show('modal-project');
       }
     },
     mounted: function() {
       this.projectList = project.projectList
-      console.log(this.projectList)
     }
   }
 </script>
