@@ -1,25 +1,30 @@
 <template>
   <div>
     <modal name="modal-project"
-           width="80%"
-           height="95%"
+           width="60%"
+           height="90%"
     >
+      <div style="overflow:auto; height:100%;">
 
-      <div class="container">
-        <h1>{{ viewProject.name }}</h1>
-        <h2>{{ viewProject.period }}</h2>
+        <div style="background-color:#191919; padding:8px;">
+          <div style="color:#f1f1f1;">
+            <div style="font-size:10pt;">{{ viewProject.name }}</div>
+          </div>
+        </div>
 
+        <div style="margin:20px; text-align:center;">
+          <div>{{ viewProject.detail }}</div>
+          <div>{{ viewProject.period }}</div>
+          <div class="row">
+            <template v-for="(i,index) in viewProject.lastImgNum">
+              <div :key="index">
+                <img  :src="viewProject.path+(i)+'.png'" class="img-responsive" style="margin:auto; margin-top:20px;">
+              </div>
+            </template>
+          </div>  
+        </div>
 
-        <div class="row">
-          <template v-for="(i,index) in viewProject.lastImgNum">
-            <div class="col-md-4" :key="index">
-              <img  :src="viewProject.path+(i)+'.png'" class="img-responsive" style="max-height:300px;">
-              <h4>{{i.name}}</h4>
-            </div>
-          </template>
-        </div>  
       </div>
-    
     </modal>
   </div>
 </template>

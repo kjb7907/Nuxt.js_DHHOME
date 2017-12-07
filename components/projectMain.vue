@@ -50,5 +50,11 @@ import project from '~/assets/project.js'
 </script>
 
 <style>
+ img{
+   cursor: pointer;
+ }
 
+ h4 {
+   text-align: center;
+ }
 </style>

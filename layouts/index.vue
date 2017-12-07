@@ -4,7 +4,7 @@
     <layout-top></layout-top>
 
     <solutions-main></solutions-main>
-    <service-main></service-main>
+    
     <project-main></project-main>
 
     <layout-bottom></layout-bottom>

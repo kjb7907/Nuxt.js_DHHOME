@@ -35,8 +35,8 @@
             <h1 style="color:white; font-size:50pt;">CREATIVE WORK</h1>
             <h2 style="color:white;">Would you like to receive expert consulting you?</h2>
             <br>
-            <a href="/project" class="btn btn-primary my-btn">Portfolio</a>
-            <a href="/contact" class="btn btn-primary my-btn2">Contact</a>
+            <nuxt-link to="/project" class="btn btn-primary my-btn">Portfolio</nuxt-link>
+            <nuxt-link to="/contact" class="btn btn-primary my-btn2">Contact</nuxt-link>
           </div>
         </div>
       </div>
