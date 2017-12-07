@@ -7,47 +7,43 @@
       </div>
 
       <div class="space"></div>
-
       <div class="row">
-        <div class="col-md-4">
-          <img src="/dhhome/project_img/sj_tms_kiosk_thumb.png" class="img-responsive">
-          <h4>선진TMS(입출고 관리시스템)</h4>
-        </div>
-
-        <div class="col-md-4">
-          <img src="/dhhome/project_img/sj_tms_web_thumb.png" class="img-responsive">
-          <h4>선진TMS(입출고 관리시스템)</h4>
-        </div>
-
-        <div class="col-md-4">
-          <img src="/dhhome/project_img/sj_tms_mobile_thumb.png" class="img-responsive">
-          <h4>선진TMS 모바일 앱</h4>
-        </div>
+        <template v-for="(i,index) in projectList">
+          <div class="col-md-4" :key="index">
+            <img @click="detailOpen(index)" :src="i.path+'thumb.png'" class="img-responsive">
+            <h4>{{i.name}}</h4>
+          </div>
+        </template>
       </div>
 
-      <div class="row toppadding">
-        <div class="col-md-4">
-          <img src="/dhhome/project_img/sj_bulacan_oee_thumb.png" class="img-responsive">
-          <h4>선진사료 해외공장 OEE시스템</h4>
-        </div>
-
-        <div class="col-md-4">
-          <img src="/dhhome/project_img/ns_pms_thumb.png" class="img-responsive">
-          <h4>농심 식품안전플랫폼</h4>
-        </div>
-
-        <div class="col-md-4">
-          <img src="/dhhome/project_img/ny_pms_thumb.png" class="img-responsive">
-          <h4>남양유업 식품안전 플랫폼</h4>
-        </div>
-      </div>
     </div>
+
+    <modal-project></modal-project>
+
   </div>
 </template>
 
 <script>
+import modal_project from '~/components/modal_project'
+import project from '~/assets/project.js'
+
   export default {
+    data() {
+      return {
+        projectList:[]
+      }
+    },
     components: {
+      'modal-project':modal_project
+    },
+    methods:{
+      detailOpen(index) {
+        this.$modal.show('modal-project');
+      }
+    },
+    mounted: function() {
+      this.projectList = project.projectList
+      console.log(this.projectList)
     }
   }
 </script>

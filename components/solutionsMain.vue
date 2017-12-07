@@ -53,7 +53,7 @@
 
     </div>
 
-    <modal-solutions></modal-solutions>
+    <modal-solutions solutionKey="PMS"></modal-solutions>
 
   </div>
 </template>
@@ -66,7 +66,7 @@
       'modal-solutions': modal_solutions
     }
     ,mounted () {
-
+      // this.$modal.show('hello-world');
     }
   }
 </script>

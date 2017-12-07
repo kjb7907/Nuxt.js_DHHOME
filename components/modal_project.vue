@@ -1,7 +1,7 @@
 <template>
   <div>
-    <modal name="modal-solution">
-      {{ solutionKey }}
+    <modal name="modal-project">
+      project
     </modal>
   </div>
 </template>
@@ -12,7 +12,6 @@
     components: {
     },
     props: [
-      'solutionKey'
     ]
   }
 </script>
