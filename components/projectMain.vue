@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="container">
+  <div id="projectContainer">
+    <div class="container" style="color:white;">
       <div class="section-title">
         <h3 style="text-align: center; font-size:30pt;font-weight: 300;">OUR WORKS</h3>
         <hr>
@@ -10,8 +10,8 @@
       <div class="row">
         <template v-for="(i,index) in projectList">
           <div class="col-md-4" :key="index">
-            <img @click="detailOpen(index)" :src="i.path+'thumb.png'" class="img-responsive">
-            <h4>{{i.name}}</h4>
+            <img @click="detailOpen(index)" :src="i.path+'1.png'" class="img-responsive" style="max-height:200px; margin:auto; margin-bottom:15px;">
+            <div style="text-align: center; font-size:12pt; margin-bottom:20px;">{{i.name}}</div>
           </div>
         </template>
       </div>
@@ -50,11 +50,15 @@ import project from '~/assets/project.js'
 </script>
 
 <style>
+ #projectContainer {
+   background-color: #25222a;
+ }
+
  img{
    cursor: pointer;
  }
 
  h4 {
-   text-align: center;
+
  }
 </style>

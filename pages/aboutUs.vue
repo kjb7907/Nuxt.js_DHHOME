@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div style="background-color:black;">
+  <div style="background-color:#25222a;">
     <div class="container">
       <div class="row">
         <div class="col">

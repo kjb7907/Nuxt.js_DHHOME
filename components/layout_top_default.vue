@@ -22,7 +22,7 @@
                 <li><nuxt-link to="/">Home</nuxt-link></li>
                 <li><nuxt-link to="/aboutUs">About Us</nuxt-link></li>
                 <li><nuxt-link to="/solutions">solutions</nuxt-link></li>
-                <li><nuxt-link to="/service">Service</nuxt-link></li>
+                <!--<li><nuxt-link to="/service">Service</nuxt-link></li>-->
                 <li><nuxt-link to="/project">Project</nuxt-link></li>
                 <li><nuxt-link to="/contact">Contact</nuxt-link></li>
               </ul>

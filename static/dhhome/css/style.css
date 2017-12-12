@@ -38,7 +38,7 @@ a {
 }
 a:hover,
 a:focus{
-	color: #0a477b;
+	color: #25222a;
 	text-decoration: none;
 }
 
@@ -101,7 +101,7 @@ a:focus{
     top: 0;
     width: 100%;
     z-index: 10000;
-    background: #0a477b;
+    background: #25222a;
     padding: 1% 0;
 }
 #tf-menu.navbar-default .navbar-nav > li > a {
@@ -114,7 +114,7 @@ a:focus{
 
 #tf-menu.navbar-default .navbar-nav > li > a:hover,
 #tf-menu.navbar-default .navbar-nav > li > a:focus {
-	color: #0a477b;
+	color: #25222a;
 	background-color: transparent;
 }
 
@@ -159,7 +159,7 @@ a.btn {
 }
 button.btn.btn-primary.my-btn,
 a.btn.btn-primary.my-btn {
-	background: #0a477b;
+	background: #25222a;
 	border-color: transparent;
 	border-radius: 0px;
 	border-width: 2px;
@@ -172,12 +172,12 @@ a.btn.btn-primary.my-btn {
 button.btn.btn-primary.my-btn:hover,
 a.btn.btn-primary.my-btn:hover{
 	background: #FFFFFF;
-	color: #0a477b;
+	color: #25222a;
 	border-color: transparent;
 }
 button.btn.btn-primary.my-btn.dark:hover,
 a.btn.btn-primary.my-btn.dark:hover{
-	background: #0a477b;
+	background: #25222a;
 	color: #ffffff;
 	border-color: transparent;
 }
@@ -195,24 +195,24 @@ a.btn.btn-primary.my-btn2 {
 }
 
 a.btn.btn-primary.my-btn2:hover{
-	background: #0a477b;
+	background: #25222a;
 	color: #ffffff;
 	border-color: transparent;
 }
 
 ul.cat.list-inline li a {
-	border: 1px solid #0a477b;
+	border: 1px solid #25222a;
 	padding: 5px 15px;
 	font-size: 11px;
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 1px;
-	color: #0a477b;
+	color: #25222a;
 	transition: all 0.5s;
 }
 
 ul.cat.list-inline li a:hover{
-	background: #0a477b;
+	background: #25222a;
 	color: #ffffff;
 }
 
@@ -226,7 +226,7 @@ ul.cat.list-inline li a:hover{
 	background-position: center;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
-	color: #0a477b;
+	color: #25222a;
 }
 
 #tf-about .overlay{
@@ -241,7 +241,7 @@ ul.cat.list-inline li a:hover{
 	background-position: center;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
-	color: #0a477b;
+	color: #25222a;
 }
 
 #tf-why-me .overlay{
@@ -293,10 +293,10 @@ form#contact {
 }
 #tf-contact .form-control:focus,
 #tf-contact .form-control:hover{
-	border-top: 2px solid #0a477b;
+	border-top: 2px solid #25222a;
 }
 nav#tf-footer {
-	background: #0a477b;
+	background: #25222a;
 	padding: 3% 0 2% 0;
 	color: #f1f1f1;
 }
