@@ -38,9 +38,7 @@
 import project from '~/assets/project.js'
 
   export default {
-    props: [
-      'projectIndex'
-    ],
+
     data() {
       return {
         projectList:[],
@@ -54,15 +52,9 @@ import project from '~/assets/project.js'
         this.$modal.hide('modal-project');
       }
     },
-    watch:{
-      projectIndex() {
-        this.projectList = project.projectList
-        this.viewProject = this.projectList[this.projectIndex]
-      }
-    },
     mounted() {
       this.projectList = project.projectList
-      this.viewProject = this.projectList[this.projectIndex]
+      this.viewProject = this.projectList[this.$store.state.selProNum]
     }
   }
 </script>

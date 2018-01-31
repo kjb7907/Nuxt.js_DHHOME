@@ -18,7 +18,7 @@
 
     </div>
 
-    <modal-project :projectIndex="selectProject"></modal-project>
+    <modal-project></modal-project>
 
   </div>
 </template>
@@ -40,11 +40,12 @@ import project from '~/assets/project.js'
     methods:{
       detailOpen(index) {
         this.selectProject = index;
+        this.$store.dispatch('selProject', {num:index});
         this.$modal.show('modal-project');
       }
     },
     mounted: function() {
-      this.projectList = project.projectList
+      this.projectList = project.projectList;
     }
   }
 </script>
