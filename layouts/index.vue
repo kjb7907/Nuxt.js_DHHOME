@@ -9,6 +9,8 @@
 
     <layout-bottom></layout-bottom>
 
+    <!-- <modal name="asdd"></modal> -->
+
   </div>
 </template>
 

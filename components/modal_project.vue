@@ -1,8 +1,8 @@
 <template>
-  <div>
     <modal name="modal-project"
            width="60%"
            height="80%"
+           @before-open="beforeOpen"
     >
       <div style="background-color:#191919; width:100%; padding:8px;">
         <div class="row" style="color:#f1f1f1;">
@@ -31,7 +31,6 @@
 
       </div>
     </modal>
-  </div>
 </template>
 
 <script>
@@ -50,11 +49,16 @@ import project from '~/assets/project.js'
     methods:{
       closeModal () {
         this.$modal.hide('modal-project');
+      },
+      beforeOpen () {
+        this.viewProject = this.projectList[this.$store.state.selProNum]
       }
+    },
+    computed:{
+
     },
     mounted() {
       this.projectList = project.projectList
-      this.viewProject = this.projectList[this.$store.state.selProNum]
     }
   }
 </script>

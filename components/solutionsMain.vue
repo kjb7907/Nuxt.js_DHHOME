@@ -49,7 +49,7 @@
 
 
     </div>
-    <modal-solutions solutionKey="PMS"></modal-solutions>
+    <!-- <modal-solutions solutionKey="PMS"></modal-solutions> -->
   </div>
 </template>
 
