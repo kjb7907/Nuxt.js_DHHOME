@@ -10,9 +10,9 @@
       <div class="row">
 
         <div class="col-md-4">
-          <div style="width:100%; height:50px; background-color:#c0392b;">
+          <!-- <div style="width:100%; height:50px; background-color:#c0392b;">
             <h1 style="text-align: center; color:white;"> <i class="fa fa-bar-chart"></i> OEE</h1>
-          </div>
+          </div> -->
           <div><img src="/pack/pack_oee.png" class="img-responsive" style="margin:auto; margin-top:20px;"></div>
           <div class="media">
             <div class="media-body">
@@ -22,9 +22,9 @@
         </div>
 
         <div class="col-md-4">
-          <div style="width:100%; height:50px; background-color:#27ae60;">
+          <!-- <div style="width:100%; height:50px; background-color:#27ae60;">
             <h1 style="text-align: center; color:white;"> <i class="fa fa-gears"></i>  PMS</h1>
-          </div>
+          </div> -->
           <div><img src="/pack/pack_pms.png" class="img-responsive" style="margin:auto; margin-top:20px;"></div>
           <div class="media">
             <div class="media-body">
@@ -34,9 +34,9 @@
         </div>
 
         <div class="col-md-4">
-          <div style="width:100%; height:50px; background-color:#2980b9;">
+          <!-- <div style="width:100%; height:50px; background-color:#2980b9;">
             <h1 style="text-align: center; color:white;"> <i class="fa fa-truck"></i> TMS</h1>
-          </div>
+          </div> -->
           <div><img src="/pack/pack_tms.png" class="img-responsive" style="margin:auto; margin-top:20px;"></div>
           <div class="media">
             <div class="media-body">
@@ -46,6 +46,8 @@
         </div>
 
       </div>
+
+      <div style="height:30px;"></div>
 
 
     </div>
