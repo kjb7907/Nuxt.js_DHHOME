@@ -4,14 +4,42 @@
     <div class="container">
       <div class="section-title" style="color:white;">
         <h3 style="text-align: center; font-size:40pt;font-weight: 100;">CONTACT</h3>
+        <div style="text-align:center;">
+          <p>구축하실 시스템에 대한 개략적인 내용을 전화 혹은 이메일로 보내주시면 성심껏 상담해 드리겠습니다.</p>
+        </div>
         <hr style="width:100%;">
 
-        <p>구축하실 시스템에 대한 개략적인 내용을 전화 혹은 이메일( jeonsj@daehanins.com )로 보내주시면 성심껏 상담해 드리겠습니다.</p>
+
+        <div style="width:49%;height:100px; display:inline-block;">
+
+          <div style="display:inline-block; width:80px;">
+            <i class="fa fa-phone" style="font-size:50pt"></i>
+          </div>
+          
+          <div style="font-size:12pt; display:inline-block;">
+            <div>전화: 02-2272-8900</div>
+            <div>팩스 : 02-2272-8979</div>
+            <div>연락처 : jeonsj@daehanins.com / 010-4384-7335</div>
+          </div>
+
+        </div>
+
+        <div style="width:49%;height:100px; display:inline-block;">
+
+          <div style="display:inline-block; width:80px;">
+            <i class="fa fa-map-marker" style="font-size:50pt"></i>
+          </div>
+          
+          <div style="font-size:12pt; display:inline-block;">
+            <div>서울특별시 중구 수표로 2길 15 충안빌딩 4층</div>
+            <div>서울특별시 중구 충무로3가 59-6 충안빌딩 4층</div>
+            <div>우편번호: 04554</div>
+          </div>
+
+        </div>
+
         <div class="direction" style="font-size:12pt;">
-          <div>주소 : [04554] 서울특별시 중구 수표로 2길 15 충안빌딩 4층</div>
-          <div>전화 : 02-2272-8900</div>
-          <div>팩스 : 02-2272-8979</div>
-          <div>연락처 : jeonsj@daehanins.com / 010-4384-7335</div>
+          <div>&nbsp;</div>
           <br>
         </div>
 
