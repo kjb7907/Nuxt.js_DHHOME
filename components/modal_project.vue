@@ -19,11 +19,9 @@
           <div>{{ viewProject.detail }}</div>
           <div> 작업 기간 : {{ viewProject.period }}</div>
           <div class="row">
-            <template v-for="(i,index) in viewProject.lastImgNum">
-              <div :key="index">
-                <img  :src="viewProject.path+(i)+'.png'" class="img-responsive" style="margin:auto; margin-top:20px;">
-              </div>
-            </template>
+            <div v-for="(i,index) in viewProject.lastImgNum" :key="index">
+              <img  :src="viewProject.path+(i)+'.png'" class="img-responsive" style="margin:auto; margin-top:20px;">
+            </div>
           </div>
         </div>
 

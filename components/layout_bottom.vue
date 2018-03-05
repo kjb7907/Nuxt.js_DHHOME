@@ -5,7 +5,7 @@
     
     <nav id="tf-footer">
       <div class="container">
-        <div class="pull-left" style="font-size:10pt; color:white;">
+        <div class="row pull-left" style="font-size:10pt; color:white;">
           <div>대한아이앤에스 02-2272-8900</div>
           <div>서울특별시 중구 수표로 2길 15 충안빌딩 4층</div>
           <div>대표자 전성종 jeonsj@daehanins.com / 010-4384-7335</div>

@@ -8,12 +8,10 @@
 
       <!-- <div class="space"></div> -->
       <div class="row">
-        <template v-for="(i,index) in projectList">
-          <div class="col-md-4" :key="index">
+          <div v-for="(i,index) in projectList" class="col-md-4" :key="index">
             <img @click="detailOpen(index)" :src="i.path+'1.png'" class="img-responsive" style="max-height:200px; margin:auto; margin-bottom:15px;">
             <div style="text-align: center; font-size:12pt; margin-bottom:20px;">{{i.name}}</div>
           </div>
-        </template>
       </div>
 
     </div>
