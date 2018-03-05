@@ -16,9 +16,9 @@ function main() {
       var window_top = $(window).scrollTop();
       var div_top = $('#sticky-anchor').offset().top;
       if (window_top > div_top) {
-          $('#tf-menu').addClass('stick');
+          // $('#tf-menu').addClass('stick');
       } else {
-          $('#tf-menu').removeClass('stick');
+         // $('#tf-menu').removeClass('stick');
       }
   }
 
