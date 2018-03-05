@@ -48,9 +48,7 @@
 
     <div class="why_choose_explore">
       <div>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d434.1170573624738!2d126.99104842786336!3d37.56217766938512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2e4a5f6a127%3A0xa9a34539d6e535c5!2z7ISc7Jq47Yq567OE7IucIOykkeq1rCDsiJjtkZzroZwy6ri4IDE1!5e0!3m2!1sko!2skr!4v1499153926808"
-          width="100%" height="600" frameborder="0" style="border: 0"></iframe>
+        <iframe  width="100%" height="600" frameborder="0" style="border:0" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2659.4860103433252!2d126.98981857762166!3d37.56260980762966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2e4a5f6a127%3A0xa9a34539d6e535c5!2z7ISc7Jq47Yq567OE7IucIOykkeq1rCDsiJjtkZzroZwy6ri4IDE1!5e0!3m2!1sko!2skr!4v1520229847363"></iframe>
       </div>
     </div>
 
