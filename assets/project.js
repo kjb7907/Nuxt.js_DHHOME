@@ -7,7 +7,7 @@ export default {
       path: path+'nongshim_nbpms/',
       detail: '프로젝트 상세내역 기재',
       period: '2017-07 ~ 2017-09',
-      lastImgNum: 7
+      lastImgNum: 8
     },    
     {
       name: '선진 입출고자동화 시스템(키오스크)',

@@ -32,8 +32,8 @@
 
         <div class="container">
           <div class="content">
-            <h1 style="color:white; font-size:50pt;">CREATIVE WORK</h1>
-            <h2 style="color:white;">Would you like to receive expert consulting you?</h2>
+            <h1 style="color:white; font-size:50pt;">main message</h1>
+            <h2 style="color:white;">sub message</h2>
             <br>
             <nuxt-link to="/project" class="btn btn-primary my-btn">Portfolio</nuxt-link>
             <nuxt-link to="/contact" class="btn btn-primary my-btn2">Contact</nuxt-link>

@@ -5,8 +5,8 @@
       <div class="row">
         <div class="col">
           <ul class="nav nav-pills">
-            <li @click="changeDm('think')" role="presentation" :class="{ active: (dm==='think') }"><a href="#">Think</a></li>
-            <li @click="changeDm('history')" role="presentation" :class="{ active: (dm==='history') }"><a href="#">History</a></li>
+            <li @click="changeDm('think')" role="presentation" :class="{ active: (dm==='think') }"><a href="#">비전</a></li>
+            <li @click="changeDm('history')" role="presentation" :class="{ active: (dm==='history') }"><a href="#">연혁</a></li>
           </ul>
         </div>
       </div>
@@ -69,6 +69,7 @@
       <div class="container">
         <div class="row" style="margin-top:50px;">
           <h1 style="font-size:50pt; font-weight:200;">History</h1>
+          <div class="historyList"><span class="historyDate">2018. 01</span> 연변농심(중국) 백산수 생산공장 PMS(Production Management System) 시스템 업그레이드</div>
           <div class="historyList"><span class="historyDate">2017. 11</span> (주)선진 통합모니터링 시스템 구축사업 수행</div>
           <div class="historyList"><span class="historyDate">2017. 06</span> (주)선진 해외공장 설비종합효율시스템 구축1차 (필피핀 블라칸)</div>
           <div class="historyList"><span class="historyDate">2017. 04</span> (주)선진 TMS(Transfer Management System) 구축사업 수행</div>
@@ -78,7 +79,7 @@
           <div class="historyList"><span class="historyDate">2016. 07</span> 농심 구미공장 PMS(Production Management System) 구축사업 수행</div>
           <div class="historyList"><span class="historyDate">2016. 02</span> (주)디엑스스퀘어드 DCMS(Design Collaborative Management System) 구축사업 수행</div>
           <div class="historyList"><span class="historyDate">2015. 08</span> 연변농심(중국) 백산수 생산공장 FEMS(Factory Energy Management System) 구축사업 수행</div>
-          <div class="historyList"><span class="historyDate">2015. 05 </span> 연변농심(중국) 백산수 생산공장 PMS(Production Management System) 구축사업 수행</div>
+          <div class="historyList"><span class="historyDate">2015. 05</span> 연변농심(중국) 백산수 생산공장 PMS(Production Management System) 구축사업 수행</div>
           <div class="historyList"><span class="historyDate">2015. 03</span> (주)선진 이천,군산공장 실시간 설비종합효율시스템(OEE) 구축사업 수행</div>
           <div class="historyList"><span class="historyDate">2014. 06</span> 율촌화학 안양연구소 BEMS(Building Energy Management System) 구축사업 수행</div>
           <div class="historyList"><span class="historyDate">2014. 02</span> 농심엔지니어링 FEMS(Factory Energy Management System) 구축사업 수행</div>

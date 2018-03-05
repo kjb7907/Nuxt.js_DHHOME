@@ -52,7 +52,7 @@ import project from '~/assets/project.js'
 
 <style>
  #projectContainer {
-   background-color: #25222a;
+   background-color: #333;
  }
 
  img{
