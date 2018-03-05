@@ -20,10 +20,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <!-- <li><nuxt-link to="/">Home</nuxt-link></li> -->
-                <li><nuxt-link to="/aboutUs">About Us</nuxt-link></li>
-                <li><nuxt-link to="/solutions">solutions</nuxt-link></li>
+                <li><nuxt-link to="/aboutUs">About</nuxt-link></li>
+                <li><nuxt-link to="/solutions">Solutions</nuxt-link></li>
                 <!--<li><nuxt-link to="/service">Service</nuxt-link></li>-->
-                <li><nuxt-link to="/project">Project</nuxt-link></li>
+                <li><nuxt-link to="/project">Work</nuxt-link></li>
                 <li><nuxt-link to="/contact">Contact</nuxt-link></li>
               </ul>
             </div><!-- /.navbar-collapse -->

@@ -13,13 +13,13 @@ p {
 }
 
 .historyList {
-  margin:20px;
-  font-size:14pt;
+  margin:10px;
+  font-size:12pt;
 }
 
 .historyDate {
   font-weight: 200;
   font-size:20pt;
   color:gray;
-  margin-right:30px;
+  margin-right:10px;
 }
