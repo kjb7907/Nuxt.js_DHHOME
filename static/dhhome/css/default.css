@@ -27,3 +27,15 @@ p {
 #tf-menu.navbar-default .navbar-nav > li > a:hover, #tf-menu.navbar-default .navbar-nav > li > a:focus {
   color: #FF5A5A;
 }
+
+.workName{
+  position: absolute; z-index:9; top:40%; font-size:12pt; margin-left:15%;
+  width:12em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.workCover{
+  position: absolute; margin-left:auto; width:90%; max-width:250px; height: 140px; opacity: 0.5; background-color:black;
+}

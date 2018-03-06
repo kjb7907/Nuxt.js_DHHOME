@@ -8,9 +8,16 @@
 
       <!-- <div class="space"></div> -->
       <div class="row">
-          <div v-for="(i,index) in projectList" class="col-md-3" :key="index">
-            <img @click="detailOpen(index)" :src="i.path+'1.png'" class="img-responsive" style="max-height:140px; margin:auto; margin-bottom:15px;">
-            <div style="text-align: center; font-size:12pt; margin-bottom:20px;">{{i.name}}</div>
+          <div v-for="(i,index) in projectList" class="col-sm-3" :key="index"
+               @click="detailOpen(index)"
+               v-on:mouseover="nameShow(index)"
+               v-on:mouseout="nameHide(index)"
+               style="cursor: pointer">
+            <div v-show="i.nameShowYn">
+              <div class="workName">{{ i.name }}</div>
+              <div class="workCover"></div>
+            </div>
+            <img :src="i.path+'1.png'" class="img-responsive" style="max-height:140px; margin:auto; margin-bottom:15px;">
           </div>
       </div>
 
@@ -52,6 +59,12 @@ import project from '~/assets/project.js'
         this.$store.dispatch('selProject', {num:index});
         this.$store.dispatch('showYnPro', {showYn:true});
         // this.$modal.show('modal-project');
+      },
+      nameShow(index){
+        this.projectList[index].nameShowYn = true;
+      },
+      nameHide(index){
+        this.projectList[index].nameShowYn = false;
       }
     },
     mounted: function() {
