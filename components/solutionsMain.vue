@@ -3,7 +3,7 @@
     <div class="container">
 
       <div class="section-title">
-        <h3 style="text-align: center; font-size:30pt;font-weight: 300;">SOLUTIONS</h3>
+        <h3 style="text-align: center; font-size:40pt;font-weight: 200;">SOLUTIONS</h3>
         <hr>
       </div>
 
@@ -43,7 +43,6 @@
     },
     methods: {
       selSolution: function (index) {
-        console.log(index);
         this.$store.dispatch('selSolution', {num: index});
       }
     }

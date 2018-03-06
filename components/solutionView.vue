@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    {{ solutionList[selSolNum].detail }}
+  <div>
+    <img :src="viewImg" style="width:100%;">
   </div>
 </template>
 
@@ -10,12 +10,19 @@
   export default {
     data() {
       return {
-        solutionList: []
+        solutionList: [],
+        viewImg:'/pack/test1.png',
+        isShow:true,
       }
     },
     computed:{
       selSolNum: function () {
         return this.$store.state.selSolNum;
+      }
+    },
+    watch: {
+      selSolNum: function () {
+        this.viewImg = '/pack/'+this.solutionList[this.selSolNum].detailImg;
       }
     },
     methods: {
@@ -28,5 +35,10 @@
 </script>
 
 <style>
-
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
 </style>

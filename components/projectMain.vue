@@ -1,15 +1,15 @@
 <template>
-  <div id="projectContainer">
+  <div id="projectContainer" style="min-height:800px;">
     <div class="container" style="color:white;">
       <div class="section-title">
-        <h3 style="text-align: center; font-size:30pt;font-weight: 300;">OUR WORKS</h3>
+        <h3 style="text-align: center; font-size:40pt;font-weight: 100;">WORK</h3>
         <hr>
       </div>
 
       <!-- <div class="space"></div> -->
       <div class="row">
-          <div v-for="(i,index) in projectList" class="col-md-4" :key="index">
-            <img @click="detailOpen(index)" :src="i.path+'1.png'" class="img-responsive" style="max-height:200px; margin:auto; margin-bottom:15px;">
+          <div v-for="(i,index) in projectList" class="col-md-3" :key="index">
+            <img @click="detailOpen(index)" :src="i.path+'1.png'" class="img-responsive" style="max-height:140px; margin:auto; margin-bottom:15px;">
             <div style="text-align: center; font-size:12pt; margin-bottom:20px;">{{i.name}}</div>
           </div>
       </div>
@@ -56,6 +56,7 @@ import project from '~/assets/project.js'
     },
     mounted: function() {
       this.projectList = project.projectList;
+
     }
   }
 </script>
