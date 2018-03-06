@@ -4,14 +4,18 @@ const store = () => new Vuex.Store({
 
   state: {
     selProNum: 0,
-    isShowPro: false
+    isShowPro: false,
+    selSolNum: 0
   },
   mutations: {
     selProject (state, num) {
-        state.selProNum = num;
+      state.selProNum = num;
     },
     showYnPro (state, bool){
       state.isShowPro = bool;
+    },
+    selSolution (state, num) {
+      state.selSolNum = num;
     }
   },
   actions: {
@@ -20,7 +24,10 @@ const store = () => new Vuex.Store({
     },
     showYnPro({commit}, payload){
       commit('showYnPro', payload.showYn);
-    }
+    },
+    selSolution({commit}, payload){
+      commit('selSolution', payload.num);
+    },
   }
 })
 

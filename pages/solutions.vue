@@ -1,17 +1,17 @@
 <template>
 <div>
   <solutions-main></solutions-main>
-  <div class="container">
-    <div  style="width:100%; height:600px;"><h1>solution description area</h1></div>
-  </div>
+  <solution-view></solution-view>
 </div>
 </template>
 
 <script>
   import solutionsMain from '~/components/solutionsMain.vue'
+  import solutionView from '~/components/solutionView.vue'
   export default {
     components: {
-      'solutions-main': solutionsMain
+      'solutions-main': solutionsMain,
+      'solution-view': solutionView
     }
   }
 </script>

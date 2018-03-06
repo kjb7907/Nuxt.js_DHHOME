@@ -10,7 +10,7 @@
       <div class="row">
 
         <div v-for="(item, index) in solutionList" class="col-md-4">
-          <div><img :src="'/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;"></div>
+          <div v-on:mouseover="selSolution(index)" ><img :src="'/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;"></div>
           <div class="media">
             <div class="media-body">
               <p>{{ item.detail }}</p>
@@ -40,12 +40,15 @@
     },
     components: {
       'modal-solutions': modal_solutions
+    },
+    methods: {
+      selSolution: function (index) {
+        console.log(index);
+        this.$store.dispatch('selSolution', {num: index});
+      }
     }
     ,mounted () {
-      console.log(solution);
       this.solutionList = solution.solutionList;
-      console.log(this.solutionList);
-
     }
   }
 </script>
