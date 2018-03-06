@@ -3,11 +3,35 @@ var path="/portfolio_project/"
 export default {
   projectList: [
     {
+      name: '농심 식품안전플랫폼',
+      path: path+'nongshim_fsp/',
+      detail: '프로젝트 상세내역 기재',
+      period: '2017-07 ~ 2017-09',
+      lastImgNum: 7,
+      nameShowYn: false,
+    },
+    {
       name: '농심 연변 백산수 PMS',
       path: path+'nongshim_nbpms/',
       detail: '프로젝트 상세내역 기재',
       period: '2017-07 ~ 2017-09',
       lastImgNum: 8,
+      nameShowYn: false,
+    },
+    {
+      name: '선진 OEE 통합모니터링',
+      path: path+'sunjin_oee_totalview/',
+      detail: '프로젝트 상세내역 기재',
+      period: '2017-11 ~ 2017-11',
+      lastImgNum: 7,
+      nameShowYn: false,
+    },
+    {
+      name: '선진 해외공장 OEE',
+      path: path+'sunjin_oee_bulacan/',
+      detail: '프로젝트 상세내역 기재',
+      period: '2017-08 ~ 2017-11',
+      lastImgNum: 7,
       nameShowYn: false,
     },
     {
@@ -25,22 +49,6 @@ export default {
       period: '2017-07 ~ 2017-10',
       lastImgNum: 5,
       nameShowYn: false,
-    },
-    {
-      name: '선진 해외공장 OEE',
-      path: path+'sunjin_oee_bulacan/',
-      detail: '프로젝트 상세내역 기재',
-      period: '2017-08 ~ 2017-11',
-      lastImgNum: 7,
-      nameShowYn: false,
-    },
-    {
-      name: '선진 OEE 통합모니터링',
-      path: path+'sunjin_oee_totalview/',
-      detail: '프로젝트 상세내역 기재',
-      period: '2017-11 ~ 2017-11',
-      lastImgNum: 7,
-      nameShowYn: false,
-    },
+    }
   ]
 }

@@ -13,11 +13,13 @@
                v-on:mouseover="nameShow(index)"
                v-on:mouseout="nameHide(index)"
                style="cursor: pointer">
-            <div v-show="i.nameShowYn">
-              <div class="workName">{{ i.name }}</div>
-              <div class="workCover"></div>
-            </div>
-            <img :src="i.path+'1.png'" class="img-responsive" style="max-height:140px; margin:auto; margin-bottom:15px;">
+            <transition name="fade">
+              <div v-if="i.nameShowYn">
+                <div class="workName">{{ i.name }}</div>
+                <div class="workCover"></div>
+              </div>
+            </transition>
+            <img :src="i.path+'1.png'" class="img-responsive" style="height:140px; margin:auto; margin-bottom:15px;">
           </div>
       </div>
 
@@ -58,7 +60,6 @@ import project from '~/assets/project.js'
         this.selectProject = index;
         this.$store.dispatch('selProject', {num:index});
         this.$store.dispatch('showYnPro', {showYn:true});
-        // this.$modal.show('modal-project');
       },
       nameShow(index){
         this.projectList[index].nameShowYn = true;

@@ -1,5 +1,5 @@
 <template>
-  <div @before-open="beforeOpen" style="position:fixed; top:100px; left:20%;width:60%; height:800px;">
+  <div @before-open="beforeOpen" style="position:fixed; top:100px; left:20%;width:60%; height:800px; z-index: 9999">
 
     <div style="background-color:#333; width:100%; padding:8px;">
       <div class="row" style="color:#f1f1f1;">
