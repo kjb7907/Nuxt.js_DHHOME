@@ -17,7 +17,10 @@
     </div>
 
     <!--<modal-project></modal-project>-->
-    <modal-portfolio v-if="showYnPro"></modal-portfolio>
+    <transition name="fade">
+      <modal-portfolio v-if="showYnPro"></modal-portfolio>
+    </transition>
+
 
   </div>
 </template>
@@ -68,5 +71,12 @@ import project from '~/assets/project.js'
 
  h4 {
 
+ }
+
+ .fade-enter-active, .fade-leave-active {
+   transition: opacity .5s;
+ }
+ .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+   opacity: 0;
  }
 </style>
