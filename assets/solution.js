@@ -1,21 +1,24 @@
 var path="/static/portfolio_project/"
 
 export default {
-  portfolio: [
+  solutionList: [
     {
-      name: 'OEE',
+      name: 'POES',
       path: path+'sunjin_oee_bulacan/',
-      detail:''
+      detail:'POES 설명란',
+      packImg: 'pack_poes.png'
     },
     {
-        name: 'PMS',
-        path: path+'sunjin_oee_bulacan/',
-      detail:''
+      name: 'TAG collector',
+      path: path+'sunjin_oee_bulacan/',
+      detail:'TAG collector 설명란',
+      packImg: 'pack_tag.png'
     },
     {
-        name: 'TMS',
-        path: path+'sunjin_oee_bulacan/',
-      detail:''
+      name: 'DHACCP',
+      path: path+'sunjin_oee_bulacan/',
+      detail:'DHACCP 설명란',
+      packImg: 'pack_dhaccp.png'
     }
   ]
 }
