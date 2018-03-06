@@ -10,7 +10,6 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: '/dhhome/css/bootstrap.css' },
       { rel: 'stylesheet', href: '/dhhome/fonts/font-awesome/css/font-awesome.css' },
       { rel: 'stylesheet', href: '/dhhome/css/style.css' },

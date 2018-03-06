@@ -4,12 +4,10 @@
     <layout-top></layout-top>
 
     <solutions-main></solutions-main>
-    
+
     <project-main></project-main>
 
     <layout-bottom></layout-bottom>
-
-    <!-- <modal name="asdd"></modal> -->
 
   </div>
 </template>
