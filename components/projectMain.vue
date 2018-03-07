@@ -10,16 +10,9 @@
       <div class="row">
           <div v-for="(i,index) in projectList" class="col-sm-3" :key="index"
                @click="detailOpen(index)"
-               v-on:mouseover="nameShow(index)"
-               v-on:mouseout="nameHide(index)"
                style="cursor: pointer">
-            <transition name="fade">
-              <div v-if="i.nameShowYn">
-                <div class="workName">{{ i.name }}</div>
-                <div class="workCover"></div>
-              </div>
-            </transition>
-            <img :src="i.path+'1.png'" class="img-responsive" style="height:140px; margin:auto; margin-bottom:15px;">
+            <img :src="i.path+'thumb.png'" class="img-responsive" style="height:140px; margin:auto; margin-top:20px; margin-bottom:5px;">
+            <div style="text-align: center; font-weight: 100;">{{ i.name }}</div>
           </div>
       </div>
 
@@ -35,7 +28,6 @@
 </template>
 
 <script>
-import modal_project from '~/components/modal_project'
 import modal_portfolio from '~/components/modal_portfolio'
 import project from '~/assets/project.js'
 
@@ -52,20 +44,13 @@ import project from '~/assets/project.js'
       }
     },
     components: {
-      'modal-portfolio': modal_portfolio,
-      'modal-project':modal_project
+      'modal-portfolio': modal_portfolio
     },
     methods:{
       detailOpen(index) {
         this.selectProject = index;
         this.$store.dispatch('selProject', {num:index});
         this.$store.dispatch('showYnPro', {showYn:true});
-      },
-      nameShow(index){
-        this.projectList[index].nameShowYn = true;
-      },
-      nameHide(index){
-        this.projectList[index].nameShowYn = false;
       }
     },
     mounted: function() {
