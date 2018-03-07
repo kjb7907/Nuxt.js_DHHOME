@@ -20,11 +20,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <!-- <li><nuxt-link to="/">Home</nuxt-link></li> -->
-                <li><nuxt-link to="/aboutUs">About</nuxt-link></li>
-                <li><nuxt-link to="/solutions">Solutions</nuxt-link></li>
+                <li><nuxt-link to="/aboutUs">회사 소개</nuxt-link></li>
+                <li><nuxt-link to="/solutions">솔루션</nuxt-link></li>
                 <!--<li><nuxt-link to="/service">Service</nuxt-link></li>-->
-                <li><nuxt-link to="/project">Work</nuxt-link></li>
-                <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+                <li><nuxt-link to="/project">포트폴리오</nuxt-link></li>
+                <li><nuxt-link to="/contact">문의</nuxt-link></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -32,11 +32,11 @@
 
         <div class="container">
           <div class="content">
-            <h1 style="color:white; font-size:50pt;">main message</h1>
-            <h2 style="color:white;">sub message</h2>
+            <h2 style="color:white;">DAEHAN I&S 는</h2>
+            <h3 style="color:white; font-weight: 100;">공장 생산관리 프로그램 및 설비종합효율,스마트팩토리에 특화된 솔루션 전문 업체입니다.</h3>
             <br>
-            <nuxt-link to="/project" class="btn btn-primary my-btn">Portfolio</nuxt-link>
-            <nuxt-link to="/contact" class="btn btn-primary my-btn2">Contact</nuxt-link>
+            <nuxt-link to="/project" class="btn btn-primary my-btn">포트폴리오</nuxt-link>
+            <nuxt-link to="/contact" class="btn btn-primary my-btn2">문의</nuxt-link>
           </div>
         </div>
       </div>
@@ -47,6 +47,7 @@
 <script>
   export default {
     components: {
+
     }
   }
 </script>

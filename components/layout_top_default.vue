@@ -20,11 +20,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <!-- <li><nuxt-link to="/">Home</nuxt-link></li> -->
-                <li><nuxt-link to="/aboutUs">About</nuxt-link></li>
-                <li><nuxt-link to="/solutions">Solutions</nuxt-link></li>
+                <li><nuxt-link to="/aboutUs">회사 소개</nuxt-link></li>
+                <li><nuxt-link to="/solutions">솔루션</nuxt-link></li>
                 <!--<li><nuxt-link to="/service">Service</nuxt-link></li>-->
-                <li><nuxt-link to="/project">Work</nuxt-link></li>
-                <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+                <li><nuxt-link to="/project">포트폴리오</nuxt-link></li>
+                <li><nuxt-link to="/contact">문의</nuxt-link></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
