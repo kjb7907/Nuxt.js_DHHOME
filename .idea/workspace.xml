@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a75b5fe4-de77-41ae-ac59-47c83cfe9362" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/modal_project.vue" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/portfolio_project/sunjin_tms_kiosk/thumb.png" afterPath="$PROJECT_DIR$/static/portfolio_project/sunjin_tms_kiosk/thumb.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/portfolio_project/sunjin_tms_mobile/thumb.png" afterPath="$PROJECT_DIR$/static/portfolio_project/sunjin_tms_mobile/thumb.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/project.js" afterPath="$PROJECT_DIR$/assets/project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/portfolio_project/sunjin_oee_bulacan/thumb.png" afterPath="$PROJECT_DIR$/static/portfolio_project/sunjin_oee_bulacan/thumb.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/modal_portfolio.vue" afterPath="$PROJECT_DIR$/components/modal_portfolio.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/projectMain.vue" afterPath="$PROJECT_DIR$/components/projectMain.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,8 +87,8 @@
       <file leaf-file-name="modal_portfolio.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/modal_portfolio.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="272">
+              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -172,8 +167,8 @@
         <option value="$PROJECT_DIR$/components/layout_top_index.vue" />
         <option value="$PROJECT_DIR$/components/layout_top_default.vue" />
         <option value="$PROJECT_DIR$/assets/project.js" />
-        <option value="$PROJECT_DIR$/components/modal_portfolio.vue" />
         <option value="$PROJECT_DIR$/components/projectMain.vue" />
+        <option value="$PROJECT_DIR$/components/modal_portfolio.vue" />
       </list>
     </option>
   </component>
@@ -336,12 +331,12 @@
       <workItem from="1520295114664" duration="6003000" />
       <workItem from="1520301378335" duration="21042000" />
       <workItem from="1520380767031" duration="5627000" />
-      <workItem from="1520388789279" duration="2673000" />
+      <workItem from="1520388789279" duration="3532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75764000" />
+    <option name="totallyTimeSpent" value="76623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,8 +743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/modal_portfolio.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="272">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
