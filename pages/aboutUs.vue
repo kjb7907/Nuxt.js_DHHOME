@@ -5,7 +5,8 @@
       <div class="overlay">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-md-offset-8">
+            <div class="col-xs-6 col-md-offset-8"></div>
+            <div class="col-xs-6 col-md-offset-8">
               <h1 style="font-size:40pt; font-weight:200;">We think</h1>
               <br>
               <p>우리는 고객의 요구사항을 시스템에 100% 적용하지 않습니다.
@@ -75,7 +76,7 @@
   <!-- history -->
   <template v-if="dm === 'history'">
     <div>
- 
+
     </div>
   </template>
 

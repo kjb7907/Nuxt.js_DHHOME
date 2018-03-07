@@ -9,7 +9,7 @@
 
       <div class="row">
 
-        <div v-for="(item, index) in solutionList" class="col-md-4">
+        <div v-for="(item, index) in solutionList" class="col-xs-4">
           <div v-on:mouseover="selSolution(index)" ><img :src="'/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;"></div>
           <div class="media">
             <div class="media-body">

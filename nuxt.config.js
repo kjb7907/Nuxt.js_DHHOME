@@ -6,8 +6,11 @@ module.exports = {
     title: '대한아이앤에스',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      // { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'Nuxt.js project' },
+      { name: 'keywords', content:'oee, 설비종합효율, 설비자동화, 스마트팩토리'}
+    // <meta name="keywords" content="ems, pms, flex, cdp, lms, erp, 솔루션">
+
     ],
     link: [
       { rel: 'stylesheet', href: '/dhhome/css/bootstrap.css' },
