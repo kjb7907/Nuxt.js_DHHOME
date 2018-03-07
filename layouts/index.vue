@@ -16,9 +16,7 @@
 
   import layout_top_index from '~/components/layout_top_index.vue'
   import layout_bottom from '~/components/layout_bottom.vue'
-
   import solutionsMain from '~/components/solutionsMain.vue'
-  import serviceMain from '~/components/serviceMain.vue'
   import projectMain from '~/components/projectMain.vue'
 
   export default {
@@ -26,7 +24,6 @@
       'layout-top': layout_top_index,
       'layout-bottom': layout_bottom,
       'solutions-main': solutionsMain,
-      'service-main': serviceMain,
       'project-main': projectMain
     }
   }
