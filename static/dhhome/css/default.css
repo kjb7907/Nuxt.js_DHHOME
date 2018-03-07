@@ -24,8 +24,19 @@ p {
   margin-right:10px;
 }
 
+#tf-menu{
+  background: white;
+  padding:20px;
+  border-bottom: 1px solid red;
+}
+
 #tf-menu.navbar-default .navbar-nav > li > a:hover, #tf-menu.navbar-default .navbar-nav > li > a:focus {
   color: #FF5A5A;
+}
+
+#tf-menu.navbar-default .navbar-nav > li > a {
+  color:#333;
+  font-size:14pt;
 }
 
 .workName{
