@@ -5,7 +5,7 @@ const store = () => new Vuex.Store({
   state: {
     selProNum: 0,
     isShowPro: false,
-    selSolNum: 0
+    selSolNum: 1
   },
   mutations: {
     selProject (state, num) {

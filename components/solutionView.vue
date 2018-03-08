@@ -11,7 +11,7 @@
     data() {
       return {
         solutionList: [],
-        viewImg:'/pack/test1.png',
+        viewImg:'',
         isShow:true,
       }
     },
@@ -30,6 +30,7 @@
     }
     ,mounted () {
       this.solutionList = solution.solutionList;
+      this.viewImg = '/pack/'+this.solutionList[this.selSolNum].detailImg;
     }
   }
 </script>

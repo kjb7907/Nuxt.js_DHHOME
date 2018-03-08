@@ -18,11 +18,11 @@ p {
 }
 
 .historyDate {
-  font-weight: 200;
-  font-size:20pt;
-  color:gray;
-  margin-right:10px;
-}
+   font-weight: 400;
+   font-size:16pt;
+   color:gray;
+   margin-right:10px;
+ }
 
 #tf-menu{
   background: white;
