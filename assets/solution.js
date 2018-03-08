@@ -12,14 +12,14 @@ export default {
     {
       name: 'POES',
       path: path+'sunjin_oee_bulacan/',
-      detail:'PMS (Production Management System) + OEE (Overall Equipment Effectiveness) 두 시스템이 결합된 종합 생산 관리 시스템',
+      detail:'설비 A가 어젯밤에 5분간 정지된 이유는 무엇일까?” 생산현장의 정보와 OEE를 한번에 볼 수 있는 생산 종합효율 관리 시스템',
       packImg: 'pack_poes.png',
       detailImg: 'poes.png'
     },
     {
       name: 'DHACCP',
       path: path+'sunjin_oee_bulacan/',
-      detail:'자동화 설비에서 발생하는 센서 데이터를 체계적으로 수집합니다',
+      detail:'HACCP 기록, 관리, 보관을 전산으로 자동화 HACCP 모니터링 및 관리, 자동화 시스템',
       packImg: 'pack_dhaccp.png',
       detailImg: 'dhaccp.png'
     }

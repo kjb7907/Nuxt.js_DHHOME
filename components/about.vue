@@ -18,6 +18,10 @@
         <!--</div>-->
       <!--</div>-->
 
+    <div>
+      <img src="/dhhome/about1.png">
+    </div>
+
       <div class="container">
         <h3 style="text-align: center; font-size:40pt;font-weight: 200;">HISTORY</h3>
         <div class="row" style="margin-top:50px;">

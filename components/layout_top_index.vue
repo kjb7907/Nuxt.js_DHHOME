@@ -37,7 +37,7 @@
 
         <div class="container" style="height: 910px;">
           <div class="content" style="padding: 30% 0 18% 0;">
-            <h2 style="color:white;">DAEHAN I&S 는</h2>
+            <h2 style="color:white;">DAEHAN INS 는</h2>
             <h3 style="color:white; font-weight: 100;">공장 생산관리 프로그램 및 설비종합효율,스마트팩토리에 특화된 솔루션 전문 업체입니다.</h3>
             <br>
             <!--<nuxt-link to="/project" class="btn btn-primary my-btn">포트폴리오</nuxt-link>-->

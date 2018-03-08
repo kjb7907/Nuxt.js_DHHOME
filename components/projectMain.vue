@@ -1,5 +1,5 @@
 <template>
-  <div id="projectContainer" style="min-height:800px; background-color:#f1f1f1;">
+  <div id="projectContainer" style="min-height:900px; background-color:#f1f1f1;">
     <div class="container" style="color:#333;">
       <div class="section-title">
         <h3 style="text-align: center; font-size:40pt;font-weight: 100;">WORK</h3>

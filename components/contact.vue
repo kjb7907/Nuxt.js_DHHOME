@@ -16,7 +16,7 @@
           <div class="col-sm-5">
             <div>전화: 02-2272-8900</div>
             <div>팩스 : 02-2272-8979</div>
-            <div>연락처 : jeonsj@daehanins.com / 010-4384-7335</div>
+            <div>연락처 : contact@daehanins.com / 010-4384-7335</div>
           </div>
           <div class="col-sm-1">
             <i class="fa fa-map-marker" style="font-size:50pt"></i>
