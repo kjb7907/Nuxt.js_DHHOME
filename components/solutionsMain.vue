@@ -1,8 +1,8 @@
 <template>
   <div style="background-color: #f0f0f0">
-    <div class="">
+    <div>
 
-      <div class="section-title">
+      <div class="section-title container">
         <h3 style="text-align: center; font-size:30pt;font-weight: 200; color:#333;">SOLUTIONS</h3>
         <hr>
       </div>

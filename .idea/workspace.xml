@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a75b5fe4-de77-41ae-ac59-47c83cfe9362" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/solution.js" afterPath="$PROJECT_DIR$/assets/solution.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/layout_top_index.vue" afterPath="$PROJECT_DIR$/components/layout_top_index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/projectMain.vue" afterPath="$PROJECT_DIR$/components/projectMain.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/about.vue" afterPath="$PROJECT_DIR$/components/about.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/solutionsMain.vue" afterPath="$PROJECT_DIR$/components/solutionsMain.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/index.vue" afterPath="$PROJECT_DIR$/layouts/index.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,21 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="solutionsMain.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/solutionsMain.vue">
+      <file leaf-file-name="about.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/about.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
               <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <marker date="1520504735462" expanded="false" signature="1138:1167" ph="..." />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/index.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -144,13 +143,13 @@
         <option value="$PROJECT_DIR$/components/s" />
         <option value="$PROJECT_DIR$/store/index.js" />
         <option value="$PROJECT_DIR$/components/solutionView.vue" />
-        <option value="$PROJECT_DIR$/components/about.vue" />
         <option value="$PROJECT_DIR$/components/contact.vue" />
         <option value="$PROJECT_DIR$/components/layout_top_index.vue" />
         <option value="$PROJECT_DIR$/assets/solution.js" />
         <option value="$PROJECT_DIR$/components/projectMain.vue" />
-        <option value="$PROJECT_DIR$/components/solutionsMain.vue" />
         <option value="$PROJECT_DIR$/layouts/index.vue" />
+        <option value="$PROJECT_DIR$/components/solutionsMain.vue" />
+        <option value="$PROJECT_DIR$/components/about.vue" />
       </list>
     </option>
   </component>
@@ -325,12 +324,12 @@
       <workItem from="1520408978561" duration="3748000" />
       <workItem from="1520417134151" duration="78000" />
       <workItem from="1520467225753" duration="18447000" />
-      <workItem from="1520501911804" duration="2860000" />
+      <workItem from="1520501911804" duration="3601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106858000" />
+    <option name="totallyTimeSpent" value="107599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,20 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/about.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/contact.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -709,23 +694,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/solutionsMain.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <marker date="1520504735462" expanded="false" signature="1138:1167" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/solutionsMain.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <marker date="1520505291021" expanded="false" signature="1139:1168" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/about.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

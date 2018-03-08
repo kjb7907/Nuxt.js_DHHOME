@@ -25,16 +25,18 @@
       <div class="container">
         <h3 style="text-align: center; font-size:40pt;font-weight: 200;">HISTORY</h3>
         <div class="row" style="margin-top:50px;">
-          <div class="col-xs-6" style="width:50%; height:600px;">
-            <img src="/dhhome/client.png">
+          <div class="col-xs-4" style="height:600px;">
+            <!--<img src="/dhhome/client.png" class="img-responsive">-->
+            <h3 style="font-size:35px;">"다년간의 수많은 경험을 바탕으로 고객니즈에 맞춘 전략과 서비스 시스템을 구축합니다."</h3>
           </div>
 
-          <div class="col-xs-6" style="max-height:600px; overflow: auto">
+          <div class="col-xs-8" style=" overflow: auto">
 
             <div class="row">
               <div class="col-xs-2"><span class="historyDate">2018</span></div>
               <div class="col-xs-10">
-                연변농심백산수 3호라인증설 PMS 시스템 구축 농심 안양공장 스낵라인PMS
+                <div>연변농심백산수 3호라인증설 PMS 시스템 구축</div>
+                  <div>농심 안양공장 스낵라인PMS</div>
               </div>
             </div>
             <br>
@@ -43,13 +45,13 @@
               <div class="col-xs-10">
                 <div></div>
                 <div>실시간 옥외광고 효과 측정 시스템 개발</div>
-                <div>(주)부흥금속열처리 ICT융합 스마트공장 MES구축 수행</div>
-                <div>(주)고려고주파 ICT융합 스마트공장 MES구축 수행 </div>
+                <div>(주)부흥금속열처리 ICT융합 스마트공장 MES구축 </div>
+                <div>(주)고려고주파 ICT융합 스마트공장 MES구축  </div>
                 <div>드림열처리(주)ICT융합 스마트공장 MES구축 </div>
                 <div>(주)삼원열처리 ICT융합 스마트공장 MES구축 </div>
                 <div>(주)선진 해외공장 설비종합효율시스템 구축1차 (필피핀 블라칸)</div>
-                <div>(주)선진 TMS(Transfer Management System) 구축사업 수행</div>
-                <div>농심엔지니어링 식품안전플랫폼(검사장비 통합 모니터링) 구축사업 수행</div>
+                <div>(주)선진 TMS(Transfer Management System) 구축사업 </div>
+                <div>농심엔지니어링 식품안전플랫폼(검사장비 통합 모니터링) 구축사업 </div>
               </div>
             </div>
             <br>
@@ -58,38 +60,38 @@
               <div class="col-xs-10">
                 <div>동아제약 박카스 피로측정지수 프로모션 시스템</div>
                 <div>아큐브 서클렌즈 눈동자 특성분석 시스템</div>
-                <div>농심엔지니어링 안양공장 PMS(Production Management System) 구축사업 수행</div>
-                <div>(주)선진 LDMS(Location Delivery Management System) 구축사업 수행</div>
-                <div>농심 구미공장 PMS(Production Management System) 구축사업 수행</div>
+                <div>농심엔지니어링 안양공장 PMS(Production Management System) 구축사업 </div>
+                <div>(주)선진 LDMS(Location Delivery Management System) 구축사업 </div>
+                <div>농심 구미공장 PMS(Production Management System) 구축사업 </div>
                 <div>농심엔지니어링 데이터게터링 미들웨어 개발</div>
-                <div>(주)디엑스스퀘어드 DCMS(Design Collaborative Management System) 구축사업 수행</div>
+                <div>(주)디엑스스퀘어드 DCMS(Design Collaborative Management System) 구축사업 </div>
               </div>
             </div>
             <br>
             <div class="row">
               <div class="col-xs-2"><span class="historyDate">2015</span></div>
               <div class="col-xs-10">
-                <div>국세청 차세대 전면개편 2단계 시스템 구축 수행</div>
-                <div>연변농심(중국) 백산수 생산공장 FEMS(Factory Energy Management System) 구축사업 수행</div>
-                <div>연변농심(중국) 백산수 생산공장 PMS(Production Management System) 구축사업 수행</div>
-                <div>(주)선진 이천,군산공장 실시간 설비종합효율시스템(OEE) 구축사업 수행</div>
+                <div>국세청 차세대 전면개편 2단계 시스템 구축 </div>
+                <div>연변농심(중국) 백산수 생산공장 FEMS(Factory Energy Management System) 구축사업 </div>
+                <div>연변농심(중국) 백산수 생산공장 PMS(Production Management System) 구축사업 </div>
+                <div>(주)선진 이천,군산공장 실시간 설비종합효율시스템(OEE) 구축사업 </div>
               </div>
             </div>
             <br>
             <div class="row">
               <div class="col-xs-2"><span class="historyDate">2014</span></div>
               <div class="col-xs-10">
-                <div>율촌화학 안양연구소 BEMS(Building Energy Management System) 구축사업 수행</div>
-                <div>농심엔지니어링 FEMS(Factory Energy Management System) 구축사업 수행</div>
+                <div>율촌화학 안양연구소 BEMS(Building Energy Management System) 구축사업 </div>
+                <div>농심엔지니어링 FEMS(Factory Energy Management System) 구축사업 </div>
               </div>
             </div>
             <br>
             <div class="row">
               <div class="col-xs-2"><span class="historyDate">2013</span></div>
               <div class="col-xs-10">
-                <div>북경 삼성전자(중국법인) MCS 고도화사업 수행</div>
-                <div>일본 사가현 LMS(Learning Management System) 구축사업 수행</div>
-                <div>농심엔지니어링 율촌화학 PMS(Product Management System) 구축사업 수행</div>
+                <div>북경 삼성전자(중국법인) MCS 고도화사업 </div>
+                <div>일본 사가현 LMS(Learning Management System) 구축사업 </div>
+                <div>농심엔지니어링 율촌화학 PMS(Product Management System) 구축사업 </div>
               </div>
             </div>
 
