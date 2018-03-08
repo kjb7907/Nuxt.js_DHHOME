@@ -2,19 +2,31 @@
   <div id="projectContainer" style="min-height:900px; background-color:#f1f1f1;">
     <div class="container" style="color:#333;">
       <div class="section-title">
-        <h3 style="text-align: center; font-size:40pt;font-weight: 100;">WORK</h3>
+        <h3 style="text-align: center; font-size:40pt;font-weight: 100;">WORKS</h3>
         <hr>
       </div>
 
       <!-- <div class="space"></div> -->
-      <div class="row">
-          <div v-for="(i,index) in projectList" class="col-sm-3" :key="index"
-               @click="detailOpen(index)"
-               style="cursor: pointer">
-            <img :src="i.path+'thumb.png'" class="img-responsive" style="height:140px; margin:auto; margin-top:20px; margin-bottom:5px;">
-            <div style="text-align: center; font-weight: 400;">{{ i.name }}</div>
-          </div>
+      <div v-for="(i,index) in projectList" class="row" :key="index"
+        @click="detailOpen(index)"
+        style="cursor: pointer; margin:10px 0px 10px 0px;">
+        <div class="col-xs-4">
+          <img :src="i.path+'thumb.png'" class="img-responsive" style="max-height:200px;margin:auto; margin-top:20px; margin-bottom:5px;">
+        </div>
+        <div class="col-xs-8">
+          <h3>{{ i.name }}</h3>
+          <div>{{ i.period }}</div>
+          <div>{{ i.detail }}</div>
+        </div>
       </div>
+      <!--<div class="row">-->
+          <!--<div v-for="(i,index) in projectList" class="col-sm-3" :key="index"-->
+               <!--@click="detailOpen(index)"-->
+               <!--style="cursor: pointer">-->
+            <!--<img :src="i.path+'1.png'" class="img-responsive" style="height:140px; margin:auto; margin-top:20px; margin-bottom:5px;">-->
+            <!--<div style="text-align: center; font-weight: 400;">{{ i.name }}</div>-->
+          <!--</div>-->
+      <!--</div>-->
 
     </div>
 

@@ -1,24 +1,42 @@
 <template>
   <div style="background-color: #f0f0f0">
-    <div class="container">
+    <div class="">
 
       <div class="section-title">
-        <h3 style="text-align: center; font-size:30pt;font-weight: 200; color:#333;">SOLUTION</h3>
+        <h3 style="text-align: center; font-size:30pt;font-weight: 200; color:#333;">SOLUTIONS</h3>
         <hr>
       </div>
 
-      <div class="row">
-
-        <div v-for="(item, index) in solutionList" class="col-xs-4">
-          <div @click="selSolution(index)" ><img :src="'/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;"></div>
-          <div class="media">
-            <div class="media-body">
-              <p>{{ item.detail }}</p>
-            </div>
+      <div class="row" @click="selSolution(index)" v-for="(item, index) in solutionList">
+        <div class="container">
+          <div class="col-xs-4">
+            <img :src="'/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;">
+          </div>
+          <div class="col-xs-8">
+            <div><h3>{{ item.name }}</h3></div>
+            <div>{{ item.detail }}</div>
           </div>
         </div>
 
+        <transition name="fade">
+          <div v-if="item.showYn" class="col-xs-12">
+            <img :src="'/pack/'+item.detailImg" class="img-responsive" style="margin:auto; margin-top:20px;">
+          </div>
+        </transition>
       </div>
+
+      <!--<div class="row">-->
+
+        <!--<div v-for="(item, index) in solutionList" class="col-xs-4">-->
+          <!--<div @click="selSolution(index)" ><img :src="'/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;"></div>-->
+          <!--<div class="media">-->
+            <!--<div class="media-body">-->
+              <!--<p>{{ item.detail }}</p>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+
+      <!--</div>-->
 
       <div style="height:30px;"></div>
 
@@ -43,6 +61,7 @@
     },
     methods: {
       selSolution: function (index) {
+        this.solutionList[index].showYn = true;
         this.$store.dispatch('selSolution', {num: index});
       }
     }

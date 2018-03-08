@@ -7,7 +7,7 @@
 
     <solutions-main id="dh-solution"></solutions-main>
 
-    <solution-view></solution-view>
+    <!--<solution-view></solution-view>-->
 
     <project-main id="dh-portfolio"></project-main>
 

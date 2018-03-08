@@ -13,7 +13,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="" href="/" style="font-size:24pt;"><img src="/dhhome/logo_orign.png"></a>
+              <a class="" href="/" style="font-size:24pt;"><img src="/dhhome/logo_black.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -25,8 +25,8 @@
                 <!--<li><nuxt-link to="/project">Portfolio</nuxt-link></li>-->
                 <!--<li><nuxt-link to="/contact">Contact</nuxt-link></li>-->
                 <li><a href="#dh-about">About</a></li>
-                <li><a href="#dh-solution">Solution</a></li>
-                <li><a href="#dh-portfolio">Portfolio</a></li>
+                <li><a href="#dh-solution">Solutions</a></li>
+                <li><a href="#dh-portfolio">Works</a></li>
                 <li><a href="#dh-contact">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
