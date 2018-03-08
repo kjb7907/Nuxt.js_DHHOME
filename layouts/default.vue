@@ -3,6 +3,7 @@
 
     <layout-top></layout-top>
 
+    <div style="height:90px;"></div>
     <nuxt/>
 
     <layout-bottom></layout-bottom>

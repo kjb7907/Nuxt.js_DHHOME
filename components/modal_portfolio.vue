@@ -1,7 +1,7 @@
 <template>
   <div @before-open="beforeOpen" style="position:fixed; top:100px; left:20%;width:60%; height:800px; z-index: 9999">
 
-    <div style="background-color:#333; width:100%; padding:8px;">
+    <div style="background-color: black; width:100%; padding:8px;">
       <div class="row" style="color:#f1f1f1;">
         <div class="col-sm-11">{{ viewProject.name }}</div>
         <div class="col-sm-1" style="text-align: right;"><i class="fa fa-times" @click="closeModal()" style="cursor:pointer;"></i></div>

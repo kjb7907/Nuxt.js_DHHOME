@@ -28,6 +28,9 @@ p {
   background: white;
   padding:20px;
   border-bottom: 1px solid red;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
 }
 
 #tf-menu.navbar-default .navbar-nav > li > a:hover, #tf-menu.navbar-default .navbar-nav > li > a:focus {

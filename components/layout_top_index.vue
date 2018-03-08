@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="tf-home">
+    <div id="tf-home" style="height:1000px;">
       <div class="overlay">
         <div id="sticky-anchor"></div>
         <nav id="tf-menu" class="navbar navbar-default">
@@ -20,18 +20,20 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <!-- <li><nuxt-link to="/">Home</nuxt-link></li> -->
-                <li><nuxt-link to="/aboutUs">회사 소개</nuxt-link></li>
-                <li><nuxt-link to="/solutions">솔루션</nuxt-link></li>
+                <li><nuxt-link to="/aboutUs">About</nuxt-link></li>
+                <li><nuxt-link to="/solutions">Solution</nuxt-link></li>
                 <!--<li><nuxt-link to="/service">Service</nuxt-link></li>-->
-                <li><nuxt-link to="/project">포트폴리오</nuxt-link></li>
-                <li><nuxt-link to="/contact">문의</nuxt-link></li>
+                <li><nuxt-link to="/project">Portfolio</nuxt-link></li>
+                <li><nuxt-link to="/contact">Contact</nuxt-link></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
 
-        <div class="container">
-          <div class="content">
+        <div style="height:90px;"></div>
+
+        <div class="container" style="height: 1000px;">
+          <div class="content" style="padding: 30% 0 18% 0;">
             <h2 style="color:white;">DAEHAN I&S 는</h2>
             <h3 style="color:white; font-weight: 100;">공장 생산관리 프로그램 및 설비종합효율,스마트팩토리에 특화된 솔루션 전문 업체입니다.</h3>
             <br>

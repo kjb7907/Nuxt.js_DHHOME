@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background-color: #f0f0f0">
     <div class="container">
 
       <div class="section-title">
