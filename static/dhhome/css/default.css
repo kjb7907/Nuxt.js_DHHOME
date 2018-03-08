@@ -26,20 +26,24 @@ p {
 
 #tf-menu{
   background: white;
-  padding:20px;
   border-bottom: 1px solid red;
   position: fixed;
   z-index: 9999;
   width: 100%;
+  padding: 20px 0px 20px 0px ;
+  border-radius: 0;
+  max-height: 80px;
 }
 
 #tf-menu.navbar-default .navbar-nav > li > a:hover, #tf-menu.navbar-default .navbar-nav > li > a:focus {
-  color: #FF5A5A;
+  color: #e42e3d;
+  border-bottom: solid 7px red;
 }
 
 #tf-menu.navbar-default .navbar-nav > li > a {
+  font-weight:500;
   color:#333;
-  font-size:12pt;
+  font-size:13pt;
 }
 
 .workName{

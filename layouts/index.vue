@@ -3,9 +3,15 @@
 
     <layout-top></layout-top>
 
-    <solutions-main></solutions-main>
+    <about id="dh-about"></about>
 
-    <project-main></project-main>
+    <solutions-main id="dh-solution"></solutions-main>
+
+    <solution-view></solution-view>
+
+    <project-main id="dh-portfolio"></project-main>
+
+    <contaact id="dh-contact"></contaact>
 
     <layout-bottom></layout-bottom>
 
@@ -16,15 +22,21 @@
 
   import layout_top_index from '~/components/layout_top_index.vue'
   import layout_bottom from '~/components/layout_bottom.vue'
+  import about from '~/components/about.vue'
   import solutionsMain from '~/components/solutionsMain.vue'
+  import solutionView from '~/components/solutionView.vue'
   import projectMain from '~/components/projectMain.vue'
+  import contact from '~/components/contact.vue'
 
   export default {
     components: {
       'layout-top': layout_top_index,
       'layout-bottom': layout_bottom,
+      'about': about,
       'solutions-main': solutionsMain,
-      'project-main': projectMain
+      'solution-view': solutionView,
+      'project-main': projectMain,
+      'contaact': contact
     }
   }
 </script>

@@ -3,14 +3,14 @@
     <div class="container">
 
       <div class="section-title">
-        <h3 style="text-align: center; font-size:40pt;font-weight: 200;">SOLUTIONS</h3>
+        <h3 style="text-align: center; font-size:30pt;font-weight: 200; color:#333;">SOLUTION</h3>
         <hr>
       </div>
 
       <div class="row">
 
         <div v-for="(item, index) in solutionList" class="col-xs-4">
-          <div v-on:mouseover="selSolution(index)" ><img :src="'/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;"></div>
+          <div @click="selSolution(index)" ><img :src="'/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;"></div>
           <div class="media">
             <div class="media-body">
               <p>{{ item.detail }}</p>
