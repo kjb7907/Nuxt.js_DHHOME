@@ -101,6 +101,8 @@
 
     <div style="height:80px;"></div>
 
+    <div><img src="/dhhome/client.png"></div>
+
     <!-- history -->
     <template v-if="dm === 'history'">
       <div>

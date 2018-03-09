@@ -15,7 +15,7 @@
         </div>
         <div class="col-xs-8">
           <h3>{{ i.name }}</h3>
-          <div>{{ i.period }}</div>
+          <div>작업기간: {{ i.period }}</div>
           <div>{{ i.detail }}</div>
         </div>
       </div>
