@@ -13,8 +13,8 @@
             <img :src="'/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;">
           </div>
           <div class="col-xs-8">
-            <div><h3>{{ item.name }}</h3></div>
-            <div><h4>{{ item.subName }}</h4></div>
+            <!--<div><h3>{{ item.name }}</h3></div>-->
+            <div><h4 style="color:black;">{{ item.subName }}</h4></div>
             <div v-for="detail in item.detailList">{{ detail }}</div>
           </div>
         </div>

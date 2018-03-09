@@ -4,7 +4,7 @@ export default {
   solutionList: [
     {
       name: 'TAG collector',
-      subName:'스마트한 공장의 빅데이터 수집 솔루션 – TAG Collector(태크컬렉터)',
+      subName:'스마트한 공장의 빅데이터 수집 솔루션 – 태그컬렉터',
       path: path+'sunjin_oee_bulacan/',
       detail:'공장 지능화의 기초가 되는 현장 데이터 수집 모듈로써 자동화 설비에서 발생하는 센서 데이터를 체계적으로 수집합니다.',
       detailList:[
@@ -20,20 +20,20 @@ export default {
       showYn:false,
     },
     {
-      name: 'POES',
-      subName:'스마트공장으로 가는 여정의 첫번째 솔루션 – POES (생산종합효율관리시스템)',
+      name: 'D-MES',
+      subName:'스마트공장으로 가는 여정의 첫번째 솔루션 – 대한 MES (D-MES)',
       path: path+'sunjin_oee_bulacan/',
       detail:'설비 A가 어젯밤에 5분간 정지된 이유는 무엇일까?” 생산현장의 정보와 OEE를 한번에 볼 수 있는 생산 종합효율 관리 시스템',
       detailList:[
 
       ],
-      packImg: 'pack_poes.png',
-      detailImg: 'poes.png',
+      packImg: 'pack_d-mes.png',
+      detailImg: 'd-mes.png',
       showYn:false,
     },
     {
       name: 'DHACCP',
-      subName:'안전은 스마트공장의 기본, 식품안전점검 솔루션 – DHaccp (디지털해썹)',
+      subName:'안전은 스마트공장의 기본, 식품안전점검 솔루션 – 디지털해썹 (DHaccp)',
       path: path+'sunjin_oee_bulacan/',
       detail:'HACCP 기록, 관리, 보관을 전산으로 자동화 HACCP 모니터링 및 관리, 자동화 시스템',
       detailList:[
