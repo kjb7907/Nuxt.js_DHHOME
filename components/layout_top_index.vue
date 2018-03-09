@@ -37,12 +37,12 @@
 
         <div class="container" style="height: 910px;">
           <div class="content" style="padding: 30% 0 18% 0;">
-            <h2 style="color:white;">DAEHAN INS 는</h2>
+            <h1 style="color:white;">대한아이엔에스는</h1>
             <h3 style="color:white; font-weight: 100;">공장 생산관리 프로그램 및 설비종합효율,스마트팩토리에 특화된 솔루션 전문 업체입니다.</h3>
             <br>
             <!--<nuxt-link to="/project" class="btn btn-primary my-btn">포트폴리오</nuxt-link>-->
             <!--<nuxt-link to="/contact" class="btn btn-primary my-btn2">문의</nuxt-link>-->
-            <a href="#dh-portfolio" class="btn btn-primary my-btn">Portfolio</a>
+            <a href="#dh-portfolio" class="btn btn-primary my-btn">Works</a>
             <a href="#dh-contact" class="btn btn-primary my-btn2">Contact</a>
           </div>
         </div>

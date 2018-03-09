@@ -61,8 +61,8 @@
     },
     methods: {
       selSolution: function (index) {
-        this.solutionList[index].showYn = true;
-        this.$store.dispatch('selSolution', {num: index});
+        (this.solutionList[index].showYn) ? this.solutionList[index].showYn = false : this.solutionList[index].showYn = true;
+        // this.$store.dispatch('selSolution', {num: index});
       }
     }
     ,mounted () {
