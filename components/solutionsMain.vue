@@ -14,7 +14,8 @@
           </div>
           <div class="col-xs-8">
             <div><h3>{{ item.name }}</h3></div>
-            <div>{{ item.detail }}</div>
+            <div><h4>{{ item.subName }}</h4></div>
+            <div v-for="detail in item.detailList">{{ detail }}</div>
           </div>
         </div>
 

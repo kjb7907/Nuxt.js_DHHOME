@@ -27,7 +27,7 @@
         <div class="row" style="margin-top:50px;">
           <div class="col-xs-4" style="height:600px;">
             <!--<img src="/dhhome/client.png" class="img-responsive">-->
-            <h3 style="font-size:35px; color:gray;" >"다년간의 수많은 경험을 바탕으로 <span style="color:black;">고객니즈에 맞춘 전략과 서비스 시스템</span>을 구축합니다."</h3>
+            <h3 style="font-size:32px; color:gray;" >“다양한 <span style="color:black;">경험</span>을 바탕으로 <span style="color:black;">고객</span>니즈에 맞는 <span style="color:black;">전략</span>과 <span style="color:black;">서비스</span>로 시스템을 구축합니다＂</h3>
           </div>
 
           <div class="col-xs-8" style=" overflow: auto">

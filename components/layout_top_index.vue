@@ -38,7 +38,7 @@
         <div class="container" style="height: 910px;">
           <div class="content" style="padding: 30% 0 18% 0;">
             <h1 style="color:white;">대한아이엔에스는</h1>
-            <h3 style="color:white; font-weight: 100;">공장 생산관리 프로그램 및 설비종합효율,스마트팩토리에 특화된 솔루션 전문 업체입니다.</h3>
+            <h3 style="color:white; font-weight: 100;">고객의 니즈에 맞춘 합리적인 스마트공장 기술을 제공합니다</h3>
             <br>
             <!--<nuxt-link to="/project" class="btn btn-primary my-btn">포트폴리오</nuxt-link>-->
             <!--<nuxt-link to="/contact" class="btn btn-primary my-btn2">문의</nuxt-link>-->
