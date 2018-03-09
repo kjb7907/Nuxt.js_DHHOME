@@ -7,7 +7,7 @@
           <div>TEL: 02-2272-8900</div>
           <div>FAX: 02-2272-8979</div>
           <div>서울특별시 중구 수표로 2길 15 충안빌딩 4층</div>
-          <div>Copyright 2014 DAEHAN I&S All Rights Reserved</div>
+          <div>Copyright 2013 DAEHAN INS All Rights Reserved</div>
         </div>
         <div class="pull-right">
           <!--<ul class="social-media list-inline">-->
