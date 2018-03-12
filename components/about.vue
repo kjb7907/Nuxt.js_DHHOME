@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background-color: white;">
       <!--<div id="tf-about">-->
         <!--<div class="overlay">-->
           <!--<div class="container">-->
@@ -22,7 +22,7 @@
       <img src="/dhhome/dhhome/about1.png">
     </div>
 
-      <div class="container">
+      <div class="container notosans">
         <h3 style="text-align: center; font-size:45pt;font-weight: 200;">HISTORY</h3>
         <div class="row" style="margin-top:50px;">
           <div class="col-xs-5" style="height:600px;">

@@ -1,14 +1,14 @@
 <template>
-  <div style="background-color: #f0f0f0">
+  <div style="background-color: #f0f0f0; border-top: solid 1px gray;">
     <div>
 
       <div class="section-title container">
 
-        <h3 style="text-align: center; font-size:30pt;font-weight: 200; color:#333;">SOLUTIONS</h3>
-        <hr style="width: 100%;">
+        <h3 style="text-align: center; font-size:35pt;font-weight: 200; color:#333;">SOLUTIONS</h3>
+        <hr>
       </div>
 
-      <div class="row" @click="selSolution(index)" v-for="(item, index) in solutionList">
+      <div class="row notosans" @click="selSolution(index)" v-for="(item, index) in solutionList">
         <div class="container">
           <div class="col-xs-4">
             <img :src="'/dhhome/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px; border: solid 1px gray;">

@@ -10,7 +10,7 @@
 
     <div style="overflow:auto; height:100%; background-color: white; border: 1px solid black;">
 
-      <div class="row" style="margin:20px; text-align:center;">
+      <div class="row notosans" style="margin:20px; text-align:center;">
         <div>{{ viewProject.detail }}</div>
         <div> 작업 기간 : {{ viewProject.period }}</div>
         <div class="row">

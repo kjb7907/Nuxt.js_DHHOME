@@ -9,7 +9,7 @@
         </div>
         <hr style="width:100%;">
 
-        <div class="row">
+        <div class="row notosans">
           <div class="col-sm-1">
             <i class="fa fa-phone" style="font-size:50pt"></i>
           </div>

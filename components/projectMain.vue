@@ -1,13 +1,13 @@
 <template>
-  <div id="projectContainer" style="min-height:900px; background-color:snow;">
+  <div id="projectContainer" style="min-height:900px; background-color:snow; border-top: solid 1px gray;">
     <div class="container" style="color:#333;">
       <div class="section-title">
         <h3 style="text-align: center; font-size:40pt;font-weight: 200;">WORKS</h3>
-        <hr style="width:100%;">
+        <hr>
       </div>
 
       <!-- <div class="space"></div> -->
-      <div v-for="(i,index) in projectList" class="row" :key="index"
+      <div v-for="(i,index) in projectList" class="row notosans" :key="index"
         @click="detailOpen(index)"
         style="cursor: pointer; margin:10px 0px 10px 0px;">
         <div class="col-xs-4">
