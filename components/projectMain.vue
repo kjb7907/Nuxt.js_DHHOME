@@ -3,7 +3,7 @@
     <div class="container" style="color:#333;">
       <div class="section-title">
         <h3 style="text-align: center; font-size:40pt;font-weight: 100;">WORKS</h3>
-        <hr>
+        <hr style="width:100%;">
       </div>
 
       <!-- <div class="space"></div> -->

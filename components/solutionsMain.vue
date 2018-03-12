@@ -3,8 +3,9 @@
     <div>
 
       <div class="section-title container">
+
         <h3 style="text-align: center; font-size:30pt;font-weight: 200; color:#333;">SOLUTIONS</h3>
-        <hr>
+        <hr style="width: 100%;">
       </div>
 
       <div class="row" @click="selSolution(index)" v-for="(item, index) in solutionList">
