@@ -11,7 +11,7 @@
       <div class="row" @click="selSolution(index)" v-for="(item, index) in solutionList">
         <div class="container">
           <div class="col-xs-4">
-            <img :src="'/dhhome/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;">
+            <img :src="'/dhhome/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px; border: solid 1px gray;">
           </div>
           <div class="col-xs-8">
             <!--<div><h3>{{ item.name }}</h3></div>-->

@@ -3,7 +3,7 @@
     <nav id="tf-footer">
       <div class="container">
         <div class="row pull-left" style="font-size:9pt; font-weight: 100; color:#d5d5d5;">
-          <div style="display: inline-block;"><img src="/dhhome/logo_white_30.png"></div>
+          <div style="display: inline-block;"><img src="/dhhome/dhhome/logo_white_30.png"></div>
           <div>TEL: 02-2272-8900</div>
           <div>FAX: 02-2272-8979</div>
           <div>서울특별시 중구 수표로 2길 15 충안빌딩 4층</div>

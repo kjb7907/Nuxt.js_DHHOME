@@ -1,5 +1,5 @@
 <template>
-  <div id="projectContainer" style="min-height:900px; background-color:#f1f1f1;">
+  <div id="projectContainer" style="min-height:900px; background-color:snow;">
     <div class="container" style="color:#333;">
       <div class="section-title">
         <h3 style="text-align: center; font-size:40pt;font-weight: 200;">WORKS</h3>
@@ -11,7 +11,7 @@
         @click="detailOpen(index)"
         style="cursor: pointer; margin:10px 0px 10px 0px;">
         <div class="col-xs-4">
-          <img :src="i.path+'thumb.png'" class="img-responsive" style="max-height:200px;margin:auto; margin-top:20px; margin-bottom:5px;">
+          <img :src="i.path+'thumb.png'" class="img-responsive" style="max-height:200px;margin:auto; margin-top:20px; margin-bottom:5px; border: solid 1px gray;">
         </div>
         <div class="col-xs-8">
           <h3>{{ i.name }}</h3>

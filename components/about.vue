@@ -19,7 +19,7 @@
       <!--</div>-->
 
     <div>
-      <img src="/dhhome/about1.png">
+      <img src="/dhhome/dhhome/about1.png">
     </div>
 
       <div class="container">

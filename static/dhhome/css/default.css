@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-.row,p,span {
-  font-family: 'Noto Sans KR', serif;
+.notosans {
+  font-family: 'Noto Sans KR', serif; !important;
 }
 
 p {
