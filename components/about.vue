@@ -23,7 +23,7 @@
     </div>
 
       <div class="container">
-        <h3 style="text-align: center; font-size:50pt;font-weight: 200;">HISTORY</h3>
+        <h3 style="text-align: center; font-size:45pt;font-weight: 200;">HISTORY</h3>
         <div class="row" style="margin-top:50px;">
           <div class="col-xs-5" style="height:600px;">
             <!--<img src="/dhhome/client.png" class="img-responsive">-->

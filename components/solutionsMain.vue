@@ -11,7 +11,7 @@
       <div class="row" @click="selSolution(index)" v-for="(item, index) in solutionList">
         <div class="container">
           <div class="col-xs-4">
-            <img :src="'/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;">
+            <img :src="'/dhhome/pack/'+item.packImg" class="img-responsive" style="margin:auto; margin-top:20px;">
           </div>
           <div class="col-xs-8">
             <!--<div><h3>{{ item.name }}</h3></div>-->
@@ -22,7 +22,7 @@
 
         <transition name="fade">
           <div v-if="item.showYn" class="col-xs-12">
-            <img :src="'/pack/'+item.detailImg" class="img-responsive" style="margin:auto; margin-top:20px;">
+            <img :src="'/dhhome/pack/'+item.detailImg" class="img-responsive" style="margin:auto; margin-top:20px;">
           </div>
         </transition>
       </div>

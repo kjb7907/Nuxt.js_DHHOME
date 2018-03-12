@@ -1,4 +1,4 @@
-var path="/portfolio_project/"
+var path="/dhhome/portfolio_project/"
 
 export default {
   projectList: [
