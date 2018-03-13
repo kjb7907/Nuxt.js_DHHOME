@@ -19,7 +19,7 @@
       <!--</div>-->
 
     <div>
-      <img src="/dhhome/dhhome/about1.png">
+      <img src="/dhhome/dhhome/about1.png" class="img-responsive">
     </div>
 
       <div class="container notosans">
