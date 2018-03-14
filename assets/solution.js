@@ -4,7 +4,7 @@ export default {
   solutionList: [
     {
       name: 'TAG collector',
-      subName:'스마트한 공장의 빅데이터 수집 솔루션 – 태그컬렉터',
+      subName:'DX Collector(디엑스컬렉터)  스마트 공장을 위한 빅데이터 수집 솔루션',
       path: path+'sunjin_oee_bulacan/',
       detail:'공장 지능화의 기초가 되는 현장 데이터 수집 모듈로써 자동화 설비에서 발생하는 센서 데이터를 체계적으로 수집합니다.',
       detailList:[
@@ -21,11 +21,11 @@ export default {
     },
     {
       name: 'D-MES',
-      subName:'스마트공장으로 가는 여정의 첫번째 솔루션 – 대한 MES (D-MES)',
+      subName:'DX MES (디엑스MES)  스마트공장으로 가는 여정의 더 나은 경험',
       path: path+'sunjin_oee_bulacan/',
       detail:'설비 A가 어젯밤에 5분간 정지된 이유는 무엇일까?” 생산현장의 정보와 OEE를 한번에 볼 수 있는 생산 종합효율 관리 시스템',
       detailList:[
-        '대한 MES는 무엇이 다른가?',
+        'DX MES는 무엇이 다른가?',
         '설비,태그 특성별 분류, 시계열 데이터 마트 구축',
         '완전 자동화의 기초자료인 최적운전상태의 설정값 분석',
         '숙련작업자의 설비 운전정보 지식화 체계',
@@ -40,12 +40,12 @@ export default {
       showYn:false,
     },
     {
-      name: 'DHACCP',
-      subName:'안전은 스마트공장의 기본, 식품안전점검 솔루션 – 디지털해썹 (DHaccp)',
+      name: '',
+      subName:'DX Haccp(디엑스해썹)  안전한 식품생산을 위한 점검 자동화 솔루션',
       path: path+'sunjin_oee_bulacan/',
       detail:'HACCP 기록, 관리, 보관을 전산으로 자동화 HACCP 모니터링 및 관리, 자동화 시스템',
       detailList:[
-        'DHaccp이 왜 필요한가?',
+        'DX Haccp이 왜 필요한가?',
         '안전한 식품 제조를 위해서는 HACCP활동이 필수적이다.',
         '작업자가 해야할 일의 정확한 시기와 방법을 알려주고,',
         '현장에서 간단하게 즉시 처리하며, 설비의 센서정보는 자동으로 수집하여 기록하고',
