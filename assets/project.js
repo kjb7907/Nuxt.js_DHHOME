@@ -3,6 +3,14 @@ var path="/dhhome/portfolio_project/"
 export default {
   projectList: [
     {
+      name: '열처리 MES',
+      path: path+'heat_treatment_mes/',
+      detail: '열처리 MES',
+      period: '2017',
+      lastImgNum: 7,
+      nameShowYn: false,
+    },
+    {
       name: '농심 식품안전플랫폼',
       path: path+'nongshim_fsp/',
       detail: '안전한 식품생산을 위한 이물검사, 중량검사 모니터링 시스템',
