@@ -27,7 +27,7 @@
         <div class="row" style="margin-top:50px;">
           <div class="col-xs-5" style="height:600px;">
             <!--<img src="/dhhome/client.png" class="img-responsive">-->
-            <h3 style="font-size:40px; font-weight:400; color:gray;" >“다양한 <span style="color:black;">경험</span>을 바탕으로 <span style="color:black;">고객</span>니즈에 맞는 <span style="color:black;">전략</span>과 <span style="color:black;">서비스</span>로 시스템을 구축합니다”</h3>
+            <h3 style="font-size:40px; font-weight:400; color:gray;" >“다양한 <span style="color:black;">경험</span>을 바탕으로 <span style="color:black;">&nbsp;고객</span>니즈에 맞는 <span style="color:black;">전략</span>과 <span style="color:black;">&nbsp;서비스</span>로 시스템을 구축 &nbsp;합니다”</h3>
           </div>
 
           <div class="col-xs-1" style="height:600px;"></div>

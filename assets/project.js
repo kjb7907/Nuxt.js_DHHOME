@@ -5,8 +5,8 @@ export default {
     {
       name: '열처리 MES',
       path: path+'heat_treatment_mes/',
-      detail: '열처리 MES',
-      period: '2017',
+      detail: '(주)부흥금속열처리, (주)고려고주파, 드림열처리(주), (주)삼원열처리 열처리 MES 적용',
+      period: '2017-01 ~2017-12',
       lastImgNum: 7,
       nameShowYn: false,
     },
