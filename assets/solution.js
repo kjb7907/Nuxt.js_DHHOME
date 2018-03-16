@@ -4,7 +4,7 @@ export default {
   solutionList: [
     {
       name: 'TAG collector',
-      subName:'DX Collector(디엑스컬렉터)  스마트 공장을 위한 빅데이터 수집 솔루션',
+      subName:'DX-Collector(디엑스컬렉터)  스마트 공장을 위한 빅데이터 수집 솔루션',
       path: path+'sunjin_oee_bulacan/',
       detail:'공장 지능화의 기초가 되는 현장 데이터 수집 모듈로써 자동화 설비에서 발생하는 센서 데이터를 체계적으로 수집합니다.',
       detailList:[
@@ -15,13 +15,13 @@ export default {
         '태그 관리도를 경향검사 해석하여 알람, 경고 생성',
         '다양한 실시간 그래프를 통한 태그 모니터링 (현재값,설정값,상한값,하한값)'
       ],
-      packImg: 'pack_tag.png',
+      packImg: 'pack_collector.png',
       detailImg: 'tag.png',
       showYn:false,
     },
     {
       name: 'D-MES',
-      subName:'DX MES (디엑스MES)  스마트공장으로 가는 여정의 더 나은 경험',
+      subName:'DX-MES (디엑스MES)  스마트공장으로 가는 여정의 더 나은 경험',
       path: path+'sunjin_oee_bulacan/',
       detail:'설비 A가 어젯밤에 5분간 정지된 이유는 무엇일까?” 생산현장의 정보와 OEE를 한번에 볼 수 있는 생산 종합효율 관리 시스템',
       detailList:[
@@ -35,13 +35,13 @@ export default {
         '설비별 효율(OEE)과 공장,라인 전체 효율지표 제공'
 
       ],
-      packImg: 'pack_d-mes.png',
+      packImg: 'pack_mes.png',
       detailImg: 'd-mes.png',
       showYn:false,
     },
     {
       name: '',
-      subName:'DX Haccp(디엑스해썹)  안전한 식품생산을 위한 점검 자동화 솔루션',
+      subName:'DX-Haccp(디엑스해썹)  안전한 식품생산을 위한 점검 자동화 솔루션',
       path: path+'sunjin_oee_bulacan/',
       detail:'HACCP 기록, 관리, 보관을 전산으로 자동화 HACCP 모니터링 및 관리, 자동화 시스템',
       detailList:[
@@ -53,7 +53,7 @@ export default {
         '복잡한 업무를 단순하고 쉽게 지원하는 시스템이 반드시 필요하다.',
         '디지털해썹은 Haccp실행단계의 모든 업무수행을 체계적이며 효과적으로 지원한다.'
       ],
-      packImg: 'pack_dhaccp.png',
+      packImg: 'pack_haccp.png',
       detailImg: 'dhaccp.png',
       showYn:false,
     }

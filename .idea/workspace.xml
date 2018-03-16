@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a75b5fe4-de77-41ae-ac59-47c83cfe9362" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/dhhome/about1.png" afterPath="$PROJECT_DIR$/static/dhhome/about1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/dhhome/about1.psd" afterPath="$PROJECT_DIR$/static/dhhome/about1.psd" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/pack_d-mes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/pack_dhaccp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/pack_poes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/pack_tag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/poes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/poes.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/표지.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/2017081718252953.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/2sunjin_logo_png.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/Macbook-PNG-Picture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/Macbook-PNG-Transparent-Image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/default_Black_iPhone_6_Frontal_Shot_glare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/iPad-PNG-Transparent-Image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/대한아이앤에스_사무실표지.ai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/대한아이앤에스_사무실표지2.ai" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/pack/product-box-PSD-mockup/product-box-mockup.psd" afterPath="$PROJECT_DIR$/static/pack/product-box-PSD-mockup/product-box-mockup.psd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/solution.js" afterPath="$PROJECT_DIR$/assets/solution.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nuxt.config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nuxt.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nuxt.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+            <state relative-caret-position="285">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,11 +144,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solution.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="solution.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/solution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+            <state relative-caret-position="114">
+              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -236,10 +251,10 @@
         <option value="$PROJECT_DIR$/static/dhhome/css/default.css" />
         <option value="$PROJECT_DIR$/components/solutionsMain.vue" />
         <option value="$PROJECT_DIR$/components/modal_portfolio.vue" />
-        <option value="$PROJECT_DIR$/assets/solution.js" />
         <option value="$PROJECT_DIR$/assets/project.js" />
         <option value="$PROJECT_DIR$/components/about.vue" />
         <option value="$PROJECT_DIR$/nuxt.config.js" />
+        <option value="$PROJECT_DIR$/assets/solution.js" />
       </list>
     </option>
   </component>
@@ -262,10 +277,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="611" />
-    <option name="y" value="415" />
-    <option name="width" value="974" />
-    <option name="height" value="527" />
+    <option name="x" value="-8" />
+    <option name="y" value="32" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -282,7 +297,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,7 +347,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,7 +423,8 @@
       <workItem from="1521021558395" duration="747000" />
       <workItem from="1521073904808" duration="2374000" />
       <workItem from="1521104597563" duration="5000" />
-      <workItem from="1521104665005" duration="3000" />
+      <workItem from="1521104665005" duration="642000" />
+      <workItem from="1521177297859" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1520563378182</created>
@@ -578,11 +594,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521090057356</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="commit">
+      <created>1521104681592</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1521104681592</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150267000" />
+    <option name="totallyTimeSpent" value="151194000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,11 +786,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/portfolio_project/2sunjin_logo_png.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/portfolio_project/2sunjin_logo_png.png" />
     <entry file="file://$PROJECT_DIR$/components/serviceMain.vue" />
     <entry file="file://$PROJECT_DIR$/pages/service.vue" />
     <entry file="file://$PROJECT_DIR$/.nuxt/router.js" />
@@ -896,14 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/solution.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -955,8 +966,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nuxt.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/solution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding />
         </state>
       </provider>
