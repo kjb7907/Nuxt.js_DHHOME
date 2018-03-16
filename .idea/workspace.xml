@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a75b5fe4-de77-41ae-ac59-47c83cfe9362" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/pack_d-mes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/pack_dhaccp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/pack_poes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/pack_tag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/poes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/poes.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/pack/표지.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/2017081718252953.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/2sunjin_logo_png.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/Macbook-PNG-Picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/Macbook-PNG-Transparent-Image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/default_Black_iPhone_6_Frontal_Shot_glare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/iPad-PNG-Transparent-Image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/대한아이앤에스_사무실표지.ai" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/portfolio_project/대한아이앤에스_사무실표지2.ai" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/pack/pack_haccp.png" afterPath="$PROJECT_DIR$/static/pack/pack_haccp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/pack/product-box-PSD-mockup/product-box-mockup.psd" afterPath="$PROJECT_DIR$/static/pack/product-box-PSD-mockup/product-box-mockup.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/pack/product-box-PSD-mockup/표지.psd" afterPath="$PROJECT_DIR$/static/pack/product-box-PSD-mockup/표지.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/pack/src/icon_dhaccp.png" afterPath="$PROJECT_DIR$/static/pack/src/icon_dhaccp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/solution.js" afterPath="$PROJECT_DIR$/assets/solution.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -147,8 +134,8 @@
       <file leaf-file-name="solution.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/solution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="418">
+              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -424,7 +411,7 @@
       <workItem from="1521073904808" duration="2374000" />
       <workItem from="1521104597563" duration="5000" />
       <workItem from="1521104665005" duration="642000" />
-      <workItem from="1521177297859" duration="288000" />
+      <workItem from="1521177297859" duration="896000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1520563378182</created>
@@ -601,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521104681592</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="commit">
+      <created>1521177632556</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1521177632556</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151194000" />
+    <option name="totallyTimeSpent" value="151802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,7 +612,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06849315" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -627,7 +620,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16757345" sideWeight="0.49578503" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16757345" sideWeight="0.49578503" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -974,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/solution.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="418">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding />
         </state>
       </provider>
