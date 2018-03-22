@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="overflow: hidden">
 
     <layout-top></layout-top>
 
@@ -37,6 +37,49 @@
       'solution-view': solutionView,
       'project-main': projectMain,
       'contaact': contact
+    },
+    data() {
+      return {
+        scrolling:false
+      }
+    },
+    methods: {
+      smoothScroll:function (top) {
+        var self = this;
+        this.scrolling = true;
+          $('html,body').animate({
+            scrollTop: top
+          }, 500, function () {
+            self.scrolling = false;
+          });
+      }
+    },
+    mounted: function() {
+      var self = this;
+      $('body').on('mousewheel',function (e) {
+
+        var scrollTop = $('html').scrollTop();
+        var wheelDelta = e.originalEvent.wheelDelta;
+
+        console.log(scrollTop);
+
+        if(self.scrolling == false && wheelDelta<0) {
+          if(scrollTop<50){
+            self.smoothScroll(920);
+          }else if(scrollTop<980){
+            self.smoothScroll(1890);
+          }else if(scrollTop<1940){
+            self.smoothScroll(2730);
+          }
+        }
+      })
+
+      // $(window).mousewheel(function(e){
+      //   console.log(e);
+      //   $('html,body').animate({
+      //     scrollTop: 920
+      //   }, 1000);
+      // })
     }
   }
 </script>
