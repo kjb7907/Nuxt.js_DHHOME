@@ -49,7 +49,7 @@
         this.scrolling = true;
           $('html,body').animate({
             scrollTop: top
-          }, 500, function () {
+          }, 1000, function () {
             self.scrolling = false;
           });
       }
