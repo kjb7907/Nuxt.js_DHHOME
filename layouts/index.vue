@@ -55,31 +55,26 @@
       }
     },
     mounted: function() {
+
       var self = this;
       $('body').on('mousewheel',function (e) {
 
         var scrollTop = $('html').scrollTop();
         var wheelDelta = e.originalEvent.wheelDelta;
 
-        console.log(scrollTop);
-
         if(self.scrolling == false && wheelDelta<0) {
-          if(scrollTop<50){
-            self.smoothScroll(920);
-          }else if(scrollTop<980){
-            self.smoothScroll(1890);
-          }else if(scrollTop<1940){
-            self.smoothScroll(2730);
+          if(scrollTop < $('.scroll-target1').offset().top-100){
+            self.smoothScroll($('.scroll-target1').offset().top-70);
+          }
+          else if(scrollTop < $('.scroll-target2').offset().top-100){
+            self.smoothScroll($('.scroll-target2').offset().top-70);
+          }
+          else if(scrollTop < $('.scroll-target3').offset().top-100){
+            self.smoothScroll($('.scroll-target3').offset().top-70);
           }
         }
       })
 
-      // $(window).mousewheel(function(e){
-      //   console.log(e);
-      //   $('html,body').animate({
-      //     scrollTop: 920
-      //   }, 1000);
-      // })
     }
   }
 </script>

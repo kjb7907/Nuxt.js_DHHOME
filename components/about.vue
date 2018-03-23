@@ -18,11 +18,11 @@
         <!--</div>-->
       <!--</div>-->
 
-    <div>
+    <div class="scroll-target1">
       <img src="/dhhome/dhhome/about1.png" class="img-responsive">
     </div>
 
-      <div class="container notosans">
+      <div class="container notosans scroll-target2">
         <h3 style="text-align: center; font-size:45pt;font-weight: 200;">HISTORY</h3>
         <div class="row" style="margin-top:50px;">
           <div class="col-xs-5" style="height:600px;">
