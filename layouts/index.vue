@@ -76,12 +76,12 @@
           else if(scrollTop < $('.scroll-target3').offset().top-100) {
             self.smoothScroll($('.scroll-target3').offset().top-70);
           }
-          else if(scrollTop < $('.scroll-target4').offset().top-100) {
-            self.smoothScroll($('.scroll-target4').offset().top-70);
-          }
-          else if(scrollTop < $('.scroll-target5').offset().top-100) {
-            self.smoothScroll($('.scroll-target5').offset().top-70);
-          }
+          // else if(scrollTop < $('.scroll-target4').offset().top-100) {
+          //   self.smoothScroll($('.scroll-target4').offset().top-70);
+          // }
+          // else if(scrollTop < $('.scroll-target5').offset().top-100) {
+          //   self.smoothScroll($('.scroll-target5').offset().top-70);
+          // }
         }// 휠 위로 스크롤시
         else if(self.scrolling == false && wheelDelta > 0) {
           if(scrollTop < $('.scroll-target1').offset().top) {
@@ -93,12 +93,12 @@
           else if(scrollTop < $('.scroll-target3').offset().top) {
             self.smoothScroll($('.scroll-target2').offset().top-70);
           }
-          else if(scrollTop < $('.scroll-target4').offset().top) {
-            self.smoothScroll($('.scroll-target3').offset().top-70);
-          }
-          else if(scrollTop < $('.scroll-target5').offset().top) {
-            self.smoothScroll($('.scroll-target4').offset().top-70);
-          }
+          // else if(scrollTop < $('.scroll-target4').offset().top) {
+          //   self.smoothScroll($('.scroll-target3').offset().top-70);
+          // }
+          // else if(scrollTop < $('.scroll-target5').offset().top) {
+          //   self.smoothScroll($('.scroll-target4').offset().top-70);
+          // }
         }
       })
 
