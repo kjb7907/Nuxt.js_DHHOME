@@ -49,28 +49,55 @@
         this.scrolling = true;
           $('html,body').animate({
             scrollTop: top
-          }, 1000, function () {
+          }, 500, function () {
             self.scrolling = false;
           });
       }
     },
     mounted: function() {
 
+      console.log($('.scroll-target4').offset().top)
+      console.log($('.scroll-target5').offset().top)
+
       var self = this;
       $('body').on('mousewheel',function (e) {
 
-        var scrollTop = $('html').scrollTop();
-        var wheelDelta = e.originalEvent.wheelDelta;
+        var scrollTop = $('html').scrollTop();        // 현재 스크롤 위치
+        var wheelDelta = e.originalEvent.wheelDelta;  // 휠 방향
 
-        if(self.scrolling == false && wheelDelta<0) {
-          if(scrollTop < $('.scroll-target1').offset().top-100){
+        // 휠 아래로 스크롤시
+        if(self.scrolling == false && wheelDelta < 0) {
+          if(scrollTop < $('.scroll-target1').offset().top-100) {
             self.smoothScroll($('.scroll-target1').offset().top-70);
           }
-          else if(scrollTop < $('.scroll-target2').offset().top-100){
+          else if(scrollTop < $('.scroll-target2').offset().top-100) {
             self.smoothScroll($('.scroll-target2').offset().top-70);
           }
-          else if(scrollTop < $('.scroll-target3').offset().top-100){
+          else if(scrollTop < $('.scroll-target3').offset().top-100) {
             self.smoothScroll($('.scroll-target3').offset().top-70);
+          }
+          else if(scrollTop < $('.scroll-target4').offset().top-100) {
+            self.smoothScroll($('.scroll-target4').offset().top-70);
+          }
+          else if(scrollTop < $('.scroll-target5').offset().top-100) {
+            self.smoothScroll($('.scroll-target5').offset().top-70);
+          }
+        }// 휠 위로 스크롤시
+        else if(self.scrolling == false && wheelDelta > 0) {
+          if(scrollTop < $('.scroll-target1').offset().top) {
+            self.smoothScroll(0);
+          }
+          else if(scrollTop < $('.scroll-target2').offset().top) {
+            self.smoothScroll($('.scroll-target1').offset().top-70);
+          }
+          else if(scrollTop < $('.scroll-target3').offset().top) {
+            self.smoothScroll($('.scroll-target2').offset().top-70);
+          }
+          else if(scrollTop < $('.scroll-target4').offset().top) {
+            self.smoothScroll($('.scroll-target3').offset().top-70);
+          }
+          else if(scrollTop < $('.scroll-target5').offset().top) {
+            self.smoothScroll($('.scroll-target4').offset().top-70);
           }
         }
       })

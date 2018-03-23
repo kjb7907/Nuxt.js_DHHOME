@@ -1,5 +1,5 @@
 <template>
-  <div id="projectContainer" style="min-height:900px; background-color:snow; border-top: solid 1px gray;">
+  <div id="projectContainer"  class="scroll-target4" style="min-height:900px; background-color:snow; border-top: solid 1px gray;">
     <div class="container" style="color:#333;">
       <div class="section-title">
         <h3 style="text-align: center; font-size:40pt;font-weight: 200;">WORKS</h3>

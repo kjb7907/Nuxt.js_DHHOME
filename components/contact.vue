@@ -1,5 +1,5 @@
 <template>
-  <div class="contactContainer">
+  <div class="contactContainer scroll-target5">
 
     <div class="container">
       <div class="section-title" style="color:white;">
