@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   router: {
-    base: '/dhhome/'
+    base: ''
   },
   head: {
     title: '대한아이앤에스',
@@ -16,17 +16,17 @@ module.exports = {
 
     ],
     link: [
-      { rel: 'stylesheet', href: '/dhhome/dhhome/css/bootstrap.css' },
-      { rel: 'stylesheet', href: '/dhhome/dhhome/fonts/font-awesome/css/font-awesome.css' },
-      { rel: 'stylesheet', href: '/dhhome/dhhome/css/style.css' },
-      { rel: 'stylesheet', href: '/dhhome/dhhome/css/responsive.css' },
-      { rel: 'stylesheet', href: '/dhhome/dhhome/css/default.css' }
+      { rel: 'stylesheet', href: '/dhhome/css/bootstrap.css' },
+      { rel: 'stylesheet', href: '/dhhome/fonts/font-awesome/css/font-awesome.css' },
+      { rel: 'stylesheet', href: '/dhhome/css/style.css' },
+      { rel: 'stylesheet', href: '/dhhome/css/responsive.css' },
+      { rel: 'stylesheet', href: '/dhhome/css/default.css' }
     ],
     script: [
-      { src: '/dhhome/dhhome/js/modernizr.custom.js' },
+      { src: '/dhhome/js/modernizr.custom.js' },
       { src: 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' },
-      { src: '/dhhome/dhhome/js/bootstrap.js' },
-      { src: '/dhhome/dhhome/js/main.js' }
+      { src: '/dhhome/js/bootstrap.js' },
+      { src: '/dhhome/js/main.js' }
     ],
   },
   /*

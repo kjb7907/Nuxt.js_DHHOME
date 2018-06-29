@@ -13,7 +13,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="" href="/" style="font-size:24pt;"><img src="/dhhome/dhhome/logo_black.png"></a>
+              <a class="" href="/" style="font-size:24pt;"><img src="/dhhome/logo_black.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

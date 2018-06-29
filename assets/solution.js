@@ -1,4 +1,4 @@
-var path="/static/portfolio_project/"
+var path="/portfolio_project/"
 
 export default {
   solutionList: [
