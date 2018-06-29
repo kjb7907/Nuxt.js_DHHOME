@@ -7,6 +7,7 @@
     <nuxt/>
 
     <layout-bottom></layout-bottom>
+    
   </div>
 </template>
 
