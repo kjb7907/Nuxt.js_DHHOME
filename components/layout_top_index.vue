@@ -28,6 +28,7 @@
                 <li><a href="#dh-solution">Solutions</a></li>
                 <li><a href="#dh-portfolio">Works</a></li>
                 <li><a href="#dh-contact">Contact</a></li>
+                <li><a href="https://blog.naver.com/daehanins_co" target="_blank">Blog</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->

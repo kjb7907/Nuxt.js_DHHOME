@@ -19,7 +19,7 @@
       <!--</div>-->
 
     <div class="scroll-target1">
-      <img src="/dhhome/dhhome/about1.png" class="img-responsive">
+      <img src="/dhhome/about1.png" class="img-responsive">
     </div>
 
       <div class="container notosans scroll-target2">
@@ -37,8 +37,11 @@
             <div class="row">
               <div class="col-xs-2"><span class="historyDate">2018</span></div>
               <div class="col-xs-10">
+                <div>정식품 식품안전플랫폼 구축</div>
+                <div>하이트진로 식품안전플랫폼 시스템 구축</div>
+                <div>남양유업 식품안전플랫폼 시스템 구축</div>
+                <div>농심 안양공장 스낵라인PMS</div>
                 <div>연변농심백산수 3호라인증설 PMS 시스템 구축</div>
-                  <div>농심 안양공장 스낵라인PMS</div>
               </div>
             </div>
             <br>
